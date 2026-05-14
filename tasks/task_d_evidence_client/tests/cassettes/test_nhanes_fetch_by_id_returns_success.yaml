@@ -1,0 +1,316 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DEMO_J.htm
+  response:
+    body:
+      string: "<!DOCTYPE html>\r\n<html lang=\"en-us\" class=\"cdc-2022 theme-blue
+        cdc-root-home home-2022 cdc-page-type-2022home cdc-tp5\" >\r\n<head>\r\n\t<title>Page
+        Not Found | CDC</title>\r\n\t<meta name=\"description\" content=\"Page Not
+        Found | CDC\" />\r\n\t<meta name=\"date\" content=\"2024-05-02T11:44:27.140Z\">\r\n\r\n\t<meta
+        charset=\"UTF-8\" />\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"
+        />\r\n\t<meta content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"
+        name=\"viewport\" />\r\n\t<meta name=\"mobile-web-app-capable\" content=\"yes\"
+        />\r\n\t<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n\t<link
+        rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/TemplatePackage/5.0/img/favicon/apple-touch-icon.png\">\r\n\t<link
+        rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/TemplatePackage/5.0/img/favicon/favicon-32x32.png\">\r\n\t<link
+        rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/TemplatePackage/5.0/img/favicon/favicon-16x16.png\">\r\n\t<link
+        rel=\"mask-icon\" href=\"/TemplatePackage/5.0/img/favicon/safari-pinned-tab.svg\"
+        color=\"#0056b3\">\r\n\t<meta name=\"msapplication-TileColor\" content=\"#0056b3\">\r\n\t<meta
+        name=\"theme-color\" content=\"#0056b3\">\r\n\t<link rel=\"stylesheet prefetch\"
+        href=\"/TemplatePackage/5.0/css/app.css?_=29125\" />\r\n\t<link rel=\"stylesheet\"
+        media=\"print\" href=\"/TemplatePackage/5.0/css/print.css?_=29125\" />\r\n\t<link
+        rel=\"manifest\" href=\"/TemplatePackage/5.0/json/manifest.json\">\r\n\t<script
+        src=\"https://www.cdc.gov/JScript/dmat/cdc-dmat.min.js?account=cdcgov&pageview=false&_=55003\"></script>\r\n\t<meta
+        property=\"cdc:template_version\" content=\"5.0\" />\r\n</head>\r\n<body class=\"no-js
+        cdc-dfe-cdc_homepage\">\r\n\t<div id=\"skipmenu\">\r\n\t\t<a class=\"visually-hidden-focusable\"
+        href=\"#content\">Skip directly to site content</a>\r\n\t\t<a class=\"visually-hidden-focusable\"
+        href=\"#cdc-search\">Skip directly to search</a>\r\n\t</div>\r\n\r\n\t<div
+        class=\"cdc-page-banner container noindex\">\r\n\t\t<div class=\"cdc-site-gov-notice
+        noindex noprint\" aria-label=\"Official website of the United States government\">\r\n\t\t\t<div
+        class=\"cdc-page-offset\">\r\n\t\t\t\t<div class=\"cdc-site-gov-notice__header\">\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<img
+        aria-hidden=\"true\" class=\"usa-banner__header-flag\" src=\"/TemplatePackage/5.0/img/uswds/us_flag_small.png\"
+        alt=\"U.S. flag\" width=\"16\" height=\"11\">\r\n\t\t\t\t\t\t<span>An official
+        website of the United States government</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<span>\r\n\t\t\t\t\t\t<a
+        data-bs-toggle=\"collapse\" href=\"#gov-notice\" role=\"button\" aria-expanded=\"false\"
+        aria-controls=\"gov-notice\">\r\n\t\t\t\t\t\t\tHere's how you know\r\n\t\t\t\t\t\t\t<span
+        class=\"cdc-fa-angle-down\" aria-hidden=\"true\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</span>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"collapse\" id=\"gov-notice\" aria-hidden=\"true\">\r\n\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t<div class=\"col-12 col-lg-6\">\r\n\t\t\t\t\t\t\t<img
+        src=\"/TemplatePackage/5.0/img/uswds/icon-dot-gov.svg\" alt=\"\" aria-hidden=\"true\">\r\n\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t<b>Official
+        websites use .gov</b>\r\n\t\t\t\t\t\t\t\t<p>A .gov website belongs to an official
+        government organization in the United States.</p>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div
+        class=\"col-12 col-lg-6\">\r\n\t\t\t\t\t\t\t<img src=\"/TemplatePackage/5.0/img/uswds/icon-https.svg\"
+        alt=\"\" aria-hidden=\"true\">\r\n\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t<b>Secure
+        .gov websites use HTTPS</b>\r\n\t\t\t\t\t\t\t\t<p>A <strong>lock</strong>
+        ( <i class=\"cdc-icon-lock-01\" aria-hidden=\"true\"></i> ) or <strong>https://</strong>
+        means you've safely connected to the .gov website. Share sensitive information
+        only on official, secure websites.</p>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div
+        data-cdc-site-alert></div>\r\n\t</div>\r\n\t<header class=\"container cdc-header
+        noindex\" role=\"banner\">\r\n\t\t<!-- TP5 SSI: site_header -->\r\n\t\t<!--
+        logo, menu, search -->\r\n\t\t<div class=\"cdc-header__desktop\">\r\n\t\t\t<div
+        class=\"cdc-page-offset\">\r\n\t\t\t\t<div class=\"cdc-header__cdc-logo\">\r\n\t\t\t\t\t<a
+        href=\"/\">\r\n\t\t\t\t\t\t<img src=\"/TemplatePackage/5.0/img/logo/logo-notext.svg\"
+        alt=\"Centers for Disease Control and Prevention. CDC twenty four seven. Saving
+        Lives, Protecting People\" />\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"cdc-header__body\">\r\n\t\t\t\t\t<div class=\"cdc-header__title\">\r\n\t\t\t\t\t\t<a
+        href=\"/\">\r\n\t\t\t\t\t\t\tCenters for Disease Control and Prevention\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div
+        class=\"cdc-header__components\">\r\n\t\t\t\t\t\t<!-- Must Have At Least 3
+        Pages in Audience or Multiple Audience -->\r\n\t\t\t\t\t\t<div class=\"cdc-header__menu\">\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<form
+        action=\"https://search.cdc.gov/search/\" method=\"GET\" class=\"cdc-header__search\"
+        role=\"search\">\r\n\t\t\t\t\t\t\t<a href=\"#\" id=\"cdc-search__toggle\">Search</a>\r\n\t\t\t\t\t\t\t<div
+        class=\"input-group cdc-header__search__group\">\r\n\t\t\t\t\t\t\t\t<span
+        class=\"cdc-header__search-icon cdc-fa-magnifying-glass\" aria-hidden=\"true\"></span>\r\n\t\t\t\t\t\t\t\t<input
+        class=\"form-control\" data-search-input=\"\" autocomplete=\"off\" type=\"search\"
+        name=\"query\" id=\"cdc-search__input\" maxlength=\"300\" placeholder=\"\"
+        spellcheck=\"false\"><div class=\"cdc-search-complete\"></div>\r\n\t\t\t\t\t\t\t\t<button
+        class=\"cdc-header__search-submit btn\" type=\"submit\" id=\"cdc-search__submit\">Search</button>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</form>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<div
+        class=\"cdc-header-mobile\">\r\n\t\t\t<div class=\"cdc-header-mobile__top\">\r\n\t\t\t\t<a
+        href=\"/\">\r\n\t\t\t\t\t<img src=\"/TemplatePackage/5.0/img/logo/cdc-logo-tag-right-alt.svg\"
+        class=\"cdc-logo-mobile\"\r\n\t\t\t\t\t\talt=\"Centers for Disease Control
+        and Prevention. CDC twenty four seven. Saving Lives, Protecting People\" />\r\n\t\t\t\t</a>\r\n\r\n\t\t\t\t<div
+        class=\"cdc-header-mobile__buttons\">\r\n\t\t\t\t\t<a href=\"#\" class=\"nav-link
+        dropdown-toggle\" data-mobile-toggle=\"search\"\r\n\t\t\t\t\t\tdata-bs-toggle=\"dropdown\"><i
+        class=\"cdc-fa-regular cdc-fa-magnifying-glass\"></i><span\r\n\t\t\t\t\t\t\tclass=\"visually-hidden\">search</span></a>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div
+        class=\"cdc-header-mobile__title\">\r\n\t\t\t\t<a href=\"/\">\r\n\t\t\t\t\tCDC\r\n\t\t\t\t</a>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div
+        class=\"dropdown-menu cdc-mobile-menu\" role=\"menu\">\r\n\t\t\t\t<div class=\"cdc-mobile-menu-search\">\r\n\t\t\t\t\t<form
+        action=\"https://search.cdc.gov/search/\" method=\"GET\" id=\"cdc-mobile-search\"
+        role=\"search\">\r\n\t\t\t\t\t\t<div class=\"input-group\">\r\n\t\t\t\t\t\t\t<input
+        class=\"form-control\" data-search-input data-search-complete=\"off\" type=\"search\"\r\n\t\t\t\t\t\t\t\tname=\"query\"
+        id=\"cdc-mobile-menu-search__input\" maxlength=\"300\" placeholder=\"Search\"\r\n\t\t\t\t\t\t\t\trequired=\"\">\r\n\t\t\t\t\t\t\t<button
+        class=\"btn btn-outline-secondary\" type=\"reset\"><i\r\n\t\t\t\t\t\t\t\t\tclass=\"cdc-fa-light
+        cdc-fa-xmark\"></i><span class=\"visually-hidden\">Clear\r\n\t\t\t\t\t\t\t\t\tInput</span></button>\r\n\t\t\t\t\t\t\t<button
+        class=\"btn btn-outline-secondary btn--search\" type=\"button\"><i\r\n\t\t\t\t\t\t\t\t\tclass=\"cdc-fa-light
+        cdc-fa-magnifying-glass\"></i><span\r\n\t\t\t\t\t\t\t\t\tclass=\"visually-hidden\">search</span></button>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</form>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</header>\r\n\r\n\t<main
+        class=\"container cdc-main\" role=\"main\" aria-label=\"Main Content Area\">\r\n\r\n\t\t<section
+        class=\"cdc-page-title-bar cdc-page-offset noindex\"></section>\r\n\r\n\t\t<div
+        id=\"content\" class=\"cdc-page-content cdc-page-offset syndicate container\">\r\n\r\n\t\t\t<div
+        class=\"dfe-section\" data-section=\"cdc_generic_section_1\">\r\n\t\t\t\t<div
+        class=\"row \">\r\n\t\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t\t<div
+        class=\"wpb_raw_code wpb_content_element wpb_raw_html\">\r\n\t\t\t\t\t\t\t<div
+        class=\"wpb_wrapper\">\r\n\t\t\t\t\t\t\t\t<div id=\"cdc-default\" class=\"d-none\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"cdc-textblock\">\r\n\t\t\t\t\t\t\t\t\t\t<h2>The page you're looking
+        for was not found.</h2>\r\n\t\t\t\t\t\t\t\t\t\t<p>Please try the <a id=\"archive-link\"
+        href=\"https://archive.cdc.gov\">CDC\r\n\t\t\t\t\t\t\t\t\t\t\t\tarchives</a>
+        or the <a href=\"/health-topics.html\">A-Z index</a>.</p>\r\n\t\t\t\t\t\t\t\t\t\t<h3>Search
+        CDC.gov</h3>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div class=\"wpb_raw_code
+        wpb_content_element wpb_raw_html\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"wpb_wrapper\">\r\n\t\t\t\t\t\t\t\t\t\t\t<form
+        accept-charset=\"UTF-8\" method=\"get\"\r\n\t\t\t\t\t\t\t\t\t\t\t\taction=\"https://search.cdc.gov/search/\"
+        class=\"searchForm searchAgain\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-8 col-md-6\"><input
+        type=\"text\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tplaceholder=\"SEARCH\" class=\"form-control\"
+        id=\"query\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tname=\"query\" aria-label=\"Search\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"col-4 col-md-6\"><button type=\"button\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"btn
+        btn-primary button-font\">Search</button>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"hidden\" value=\"&#10003;\" id=\"utf8\" name=\"utf8\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"hidden\" value=\"cdc-main\" id=\"affiliate\" name=\"affiliate\">\r\n\t\t\t\t\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t\t<div
+        id=\"cdc-one-match\" class=\"d-none\">\r\n\t\t\t\t\t\t\t\t\t<h2>The page you
+        were looking for has moved.</h2>\r\n\t\t\t\t\t\t\t\t\t<p>You will be automatically
+        redirected to the new location in 10 seconds or you can\r\n\t\t\t\t\t\t\t\t\t\tclick
+        here to go to <a href=\"#\">link</a>.</p>\r\n\t\t\t\t\t\t\t\t\t<p>Please update
+        any bookmarks you may have saved for this page.</p>\r\n\t\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t\t<div
+        id=\"cdc-more-than-one-match\" class=\"d-none\">\r\n\t\t\t\t\t\t\t\t\t<h2>The
+        page you were looking for has moved.</h2>\r\n\t\t\t\t\t\t\t\t\t<p>Please see:</p>\r\n\t\t\t\t\t\t\t\t\t<ul></ul>\r\n\t\t\t\t\t\t\t\t\t<p>Please
+        update any bookmarks you may have saved for this page.</p>\r\n\t\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t\t<div
+        id=\"cdc-archive\" class=\"d-none\">\r\n\t\t\t\t\t\t\t\t\t<h2>The page you
+        were looking for has moved to <a\r\n\t\t\t\t\t\t\t\t\t\t\thref=\"https://archive.cdc.gov\">archive.cdc.gov</a>.</h2>\r\n\t\t\t\t\t\t\t\t\t<p>You
+        will be automatically redirected to the new location in 10 seconds or you
+        can\r\n\t\t\t\t\t\t\t\t\t\tclick here to go to <a href=\"#\">link</a>.</p>\r\n\t\t\t\t\t\t\t\t\t<p>Please
+        update any bookmarks you may have saved for this page.</p>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</main>\r\n\r\n\t<footer
+        class=\"container cdc-footer noindex\" role=\"contentinfo\">\r\n\r\n\t\t<section
+        class=\"cdc-footer__desktop\">\r\n\t\t\t<nav class=\"cdc-footer__nav\" id=\"cdc-footer-nav\">\r\n\t\t\t\t<div
+        class=\"row cdc-footer__inner\">\r\n\t\t\t\t\t<div class=\"col\">\r\n\t\t\t\t\t\t<a
+        id=\"contactUs-btn\" class=\"cdc-footer__nav-link\" data-bs-toggle=\"collapse\"
+        href=\"#contactUs\"\r\n\t\t\t\t\t\t\trole=\"button\" aria-expanded=\"false\"
+        aria-controls=\"contactUs\">\r\n\t\t\t\t\t\t\tContact Us <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__subnav collapse\" id=\"contactUs\" data-bs-parent=\"#cdc-footer-nav\"\r\n\t\t\t\t\t\t\taria-labelledby=\"contactUs-btn\"
+        tabindex=\"-1\">\r\n\t\t\t\t\t\t\t<ul class=\"cdc-footer__subnav-list  offset-lg-1\">\r\n\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"https://www.cdc.gov/cdc-info/index.html\"\r\n\t\t\t\t\t\t\t\t\t\tclass=\"cdc-footer__nav-heading\">Contact
+        Us</a> <span\r\n\t\t\t\t\t\t\t\t\t\tclass=\"cdc-fa-angle-right\"></span></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"tel:800-232-4636\">Call 800-232-4636</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/cdc-info/index.html\">Contact
+        CDC</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t<a
+        id=\"aboutCDC-btn\" class=\"cdc-footer__nav-link\" data-bs-toggle=\"collapse\"
+        href=\"#aboutCDC\"\r\n\t\t\t\t\t\t\trole=\"button\" aria-expanded=\"false\"
+        aria-controls=\"aboutCDC\">\r\n\t\t\t\t\t\t\tAbout CDC <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__subnav collapse\" id=\"aboutCDC\" data-bs-parent=\"#cdc-footer-nav\"\r\n\t\t\t\t\t\t\taria-labelledby=\"aboutCDC-btn\"
+        tabindex=\"-1\">\r\n\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t<ul class=\"cdc-footer__subnav-list
+        \ offset-lg-1\">\r\n\t\t\t\t\t\t\t\t\t<li><a class=\"cdc-footer__subnav-link\"
+        href=\"/about/\"\r\n\t\t\t\t\t\t\t\t\t\t\tclass=\"cdc-footer__nav-heading\">About
+        CDC</a> <span\r\n\t\t\t\t\t\t\t\t\t\t\tclass=\"cdc-fa-angle-right\"></span></li>\r\n\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"/about/organization/\">Mission &amp;\r\n\t\t\t\t\t\t\t\t\t\t\tOrganization</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"https://www.cdc.gov/budget/\">Budget\r\n\t\t\t\t\t\t\t\t\t\t\t&amp;
+        Funding</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\thref=\"https://jobs.cdc.gov/index.html\">Careers
+        &amp; Jobs</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a class=\"cdc-footer__subnav-link\"
+        href=\"/about/\">About CDC</a></li>\r\n\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t<a
+        id=\"policies-btn\" class=\"cdc-footer__nav-link\" data-bs-toggle=\"collapse\"
+        href=\"#policies\"\r\n\t\t\t\t\t\t\trole=\"button\" aria-expanded=\"false\"
+        aria-controls=\"policies\">\r\n\t\t\t\t\t\t\tPolicies <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__subnav collapse\" id=\"policies\" data-bs-parent=\"#cdc-footer-nav\"\r\n\t\t\t\t\t\t\taria-labelledby=\"policies-btn\"
+        tabindex=\"-1\">\r\n\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t<div
+        class=\"col-lg-3 offset-lg-1\">\r\n\t\t\t\t\t\t\t\t\t<ul class=\"cdc-footer__subnav-list\">\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/other/accessibility.html\">Accessibility</a>\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/Other/disclaimer.html#exit-notification\">External\r\n\t\t\t\t\t\t\t\t\t\t\t\tLinks</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/other/privacy.html\">Privacy</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/Other/policies.html\">Web
+        Policies</a></li>\r\n\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"col-lg-3\">\r\n\t\t\t\t\t\t\t\t\t<ul class=\"cdc-footer__subnav-list\">\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/od/foia\">FOIA</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"https://oig.hhs.gov/\">OIG</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/oeeowe/nofearact/\">No
+        Fear Act</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.cdc.gov/other/nondiscrimination.html\">Nondescrimination</a>\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://www.hhs.gov/vulnerability-disclosure-policy/index.html\">Vulnerability\r\n\t\t\t\t\t\t\t\t\t\t\t\tDisclosure
+        Policy</a></li>\r\n\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t<a
+        id=\"archive-btn\" class=\"cdc-footer__nav-link\" data-bs-toggle=\"collapse\"
+        href=\"#archive\"\r\n\t\t\t\t\t\t\trole=\"button\" aria-expanded=\"false\"
+        aria-controls=\"archive\">\r\n\t\t\t\t\t\t\tArchive <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__subnav collapse\" id=\"archive\" data-bs-parent=\"#cdc-footer-nav\"\r\n\t\t\t\t\t\t\taria-labelledby=\"archive-btn\"
+        tabindex=\"-1\">\r\n\t\t\t\t\t\t\t<ul class=\"cdc-footer__subnav-list offset-lg-1\">\r\n\t\t\t\t\t\t\t\t<li><a
+        class=\"cdc-footer__subnav-link\" href=\"https://archive.cdc.gov/\">CDC Archive</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</nav>\r\n\t\t</section>\r\n\r\n\r\n\t\t<section
+        class=\"cdc-footer__mobile\">\r\n\t\t\t<nav class=\"cdc-footer__nav\">\r\n\t\t\t\t<div
+        class=\"row cdc-footer__inner\">\r\n\t\t\t\t\t<div class=\"col\">\r\n\t\t\t\t\t\t<a
+        class=\"cdc-footer__heading\" data-bs-toggle=\"collapse\" href=\"#mobile-footer-contactUs\"\r\n\t\t\t\t\t\t\trole=\"button\"
+        aria-expanded=\"false\" aria-controls=\"mobile-footer-contactUs\">\r\n\t\t\t\t\t\t\tContact
+        Us <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__group col offset-lg-1 collapse\" id=\"mobile-footer-contactUs\">\r\n\t\t\t\t\t\t\t<a
+        href=\"https://www.cdc.gov/cdc-info/index.html\" class=\"cdc-footer__nav-heading\">Contact\r\n\t\t\t\t\t\t\t\tUs</a>
+        <span class=\"cdc-fa-angle-right\"></span>\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"tel:800-232-4636\">Call 800-232-4636</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/cdc-info/index.html\">Contact CDC</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<a
+        class=\"cdc-footer__heading\" data-bs-toggle=\"collapse\" href=\"#mobile-footer-aboutCDC\"\r\n\t\t\t\t\t\t\trole=\"button\"
+        aria-expanded=\"false\" aria-controls=\"mobile-footer-aboutCDC\">\r\n\t\t\t\t\t\t\tAbout
+        CDC <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__group col offset-lg-1 collapse\" id=\"mobile-footer-aboutCDC\">\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/about/organization/\">Mission &amp; Organization</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/budget/\">Budget &amp; Funding</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://jobs.cdc.gov/index.html\">Careers &amp; Jobs</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/about/\">About CDC</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<a
+        class=\"cdc-footer__heading\" data-bs-toggle=\"collapse\" href=\"#mobile-footer-policies\"\r\n\t\t\t\t\t\t\trole=\"button\"
+        aria-expanded=\"false\" aria-controls=\"mobile-footer-policies\">\r\n\t\t\t\t\t\t\tPolicies
+        <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__group col offset-lg-1 collapse\" id=\"mobile-footer-policies\"\r\n\t\t\t\t\t\t\tdata-bs-parent=\"#cdc-footer-nav\">\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/other/accessibility.html\">Accessibility</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/Other/disclaimer.html#exit-notification\">External\r\n\t\t\t\t\t\t\t\t\t\tLinks</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/other/privacy.html\">Privacy</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/Other/policies.html\">Web Policies</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.cdc.gov/od/foia\">FOIA</a></li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://oig.hhs.gov/\">OIG</a></li>\r\n\t\t\t\t\t\t\t\t<li><a href=\"https://www.cdc.gov/oeeowe/nofearact/\">No
+        Fear Act</a></li>\r\n\t\t\t\t\t\t\t\t<li><a href=\"https://www.cdc.gov/other/nondiscrimination.html\">Nondescrimination</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://www.hhs.gov/vulnerability-disclosure-policy/index.html\">Vulnerability\r\n\t\t\t\t\t\t\t\t\t\tDisclosure
+        Policy</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<a
+        class=\"cdc-footer__heading\" data-bs-toggle=\"collapse\" href=\"#mobile-footer-archive\"\r\n\t\t\t\t\t\t\trole=\"button\"
+        aria-expanded=\"false\" aria-controls=\"mobile-footer-archive\">\r\n\t\t\t\t\t\t\tArchive
+        <span class=\"cdc-fa-angle-down\"></span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<div
+        class=\"cdc-footer__group col offset-lg-1 collapse\" id=\"mobile-footer-archive\">\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<li><a
+        href=\"https://archive.cdc.gov/\">CDC Archive</a></li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</nav>\r\n\t\t</section>\r\n\t\t<div
+        class=\"cdc-footer__body\">\r\n\t\t\t<div class=\"row cdc-footer__inner\">\r\n\t\t\t\t<div
+        class=\"col-lg-3 cdc-footer__body-logo\">\r\n\t\t\t\t\t<a href=\"/\">\r\n\t\t\t\t\t\t<img
+        src=\"/TemplatePackage/5.0/img/logo/cdc-logo-tag-right.svg\"\r\n\t\t\t\t\t\t\talt=\"Centers
+        for Disease Control and Prevention\" />\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"col-lg-7 cdc-footer__body-social\">\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.facebook.com/CDC\">\r\n\t\t\t\t\t\t\t<i role=\"img\" aria-label=\"facebook
+        icon\" class=\"cdc-icon-facebook\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://twitter.com/CDCgov\">\r\n\t\t\t\t\t\t\t<i role=\"img\" aria-label=\"x
+        icon\" class=\"cdc-icon-twitter\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.instagram.com/CDCgov\">\r\n\t\t\t\t\t\t\t<i role=\"img\"
+        aria-label=\"instagram icon\" class=\"cdc-icon-instagram\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.linkedin.com/company/centers-for-disease-control-and-prevention\">\r\n\t\t\t\t\t\t\t<i
+        role=\"img\" aria-label=\"linkedin icon\" class=\"cdc-icon-linkedin\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.youtube.com/cdc\">\r\n\t\t\t\t\t\t\t<i role=\"img\" aria-label=\"youtube
+        icon\" class=\"cdc-icon-youtube\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.pinterest.com/cdcgov\">\r\n\t\t\t\t\t\t\t<i role=\"img\"
+        aria-label=\"pinterest icon\" class=\"cdc-icon-pinterest\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.snapchat.com/add/cdcgov\">\r\n\t\t\t\t\t\t\t<i role=\"img\"
+        aria-label=\"snapchat icon\" class=\"cdc-icon-snapchat\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t<a
+        href=\"https://www.cdc.gov/rss\">\r\n\t\t\t\t\t\t\t<i role=\"img\" aria-label=\"rss
+        icon\" class=\"cdc-icon-rss\"></i>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div
+        class=\"cdc-footer__agency\">\r\n\t\t\t<div class=\"row cdc-footer__inner\">\r\n\t\t\t\t<div
+        class=\"col-lg-10\">\r\n\t\t\t\t\t<a href=\"https://hhs.gov\">HHS.gov</a>\r\n\t\t\t\t\t<a
+        href=\"https://usa.gov\">USA.gov</a>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</footer>\r\n\r\n\t<!--
+        progress bar -->\r\n\t<div class=\"cdc-page-progress-bar d-none noindex\">\r\n\t\t<div
+        class=\"cdc-page-progress-bar__scrubber\"></div>\r\n\t</div>\r\n\r\n\t<script
+        src=\"/config/cdc_config.js\"></script>\r\n\t<script src=\"/TemplatePackage/contrib/libs/bootstrap/5x/bootstrap.bundle.min.js?_=29125\"></script>\r\n\t<script
+        src=\"/TemplatePackage/contrib/libs/jquery/latest/jquery.js?_=29125\"></script>\r\n\t<script
+        src=\"/TemplatePackage/5.0/js/app.js?_=29125\"></script>\r\n\t<script>\r\n\t\t(
+        function() { \r\n\r\n\t\t\tlet pageViewTracked = false; \r\n\r\n\t\t\tfunction
+        trackPageView(){ \r\n\t\t\t\tif(pageViewTracked) return; \r\n\t\t\t\tpageViewTracked
+        = true; \r\n\r\n\t\t\t\tsiteCatalyst.setChannel( 'CDC Top Tier' );   \r\n\t\t\t\tsiteCatalyst.setLevel1(
+        'CDC Top Tier' );   \r\n\r\n\t\t\t\t_satellite.track('pageview', { \r\n\t\t\t\t\tpageType:
+        'errorPage', \r\n\t\t\t\t\teVar61: 'Page Not Found | CDC', \r\n\t\t\t\t\tchannel:
+        'CDC Top Tier', \r\n\t\t\t\t\tlevel1: 'CDC Top Tier'\r\n\t\t\t\t}); \r\n\t\t\t}
+        \r\n\r\n\t\t\tif ( document.body.classList.contains( 'dmat-load-complete'
+        ) ) { \r\n\t\t\t\ttrackPageView(); \r\n\t\t\t} else { \r\n\t\t\t\tdocument.body.addEventListener(
+        'dmat-load-complete', trackPageView );\r\n\t\t\t} \r\n\t\t} )();\r\n\t</script>\r\n\t<script>\r\n\t\t$(
+        document ).ready( function() {\r\n\t\t\t$( 'form.searchForm.searchAgain button').on(
+        'click', function() {\r\n\t\t\t\t$( this ).parents( 'form' ).submit();\r\n\t\t\t}
+        );\r\n\t\t} );\r\n\t</script>\r\n\t<script src=\"/smart404.js\"></script>\r\n</body>\r\n</html>"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '4540'
+      Content-Security-Policy:
+      - connect-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov wwwndev.cdc.gov
+        cdnjs.cloudflare.com www.google-analytics.com mtrics.cdc.gov mtricsdev.cdc.gov
+        dpm.demdex.net; default-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov
+        wwwndev.cdc.gov youtube.com youtube-nocookie.com; font-src 'self' www.cdc.gov
+        wwwdev.cdc.gov wwwn.cdc.gov wwwndev.cdc.gov cdnjs.cloudflare.com; frame-src
+        'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov wwwndev.cdc.gov youtube.com
+        youtube-nocookie.com cdc.demdex.net; frame-ancestors 'self' www.cdc.gov wwwdev.cdc.gov
+        wwwn.cdc.gov wwwndev.cdc.gov youtube.com youtube-nocookie.com; img-src 'self'
+        www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov wwwndev.cdc.gov cdc.112.2o7.net data:;
+        media-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov wwwndev.cdc.gov youtube.com
+        youtube-nocookie.com; object-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov
+        wwwndev.cdc.gov; script-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov
+        wwwndev.cdc.gov cdnjs.cloudflare.com www.googletagmanager.com 'unsafe-inline'
+        'unsafe-eval' blob:; style-src 'self' www.cdc.gov wwwdev.cdc.gov wwwn.cdc.gov
+        wwwndev.cdc.gov cdnjs.cloudflare.com 'unsafe-inline'; worker-src 'self' blob:;
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 12 May 2026 22:25:08 GMT
+      Expires:
+      - Tue, 12 May 2026 22:25:08 GMT
+      Pragma:
+      - no-cache
+      Set-Cookie:
+      - ASLBSA=0003d23bdb21d1d26e49389ccc45c38671b7cacc89af68a3288af5e9e77addce00c5;
+        Path=/; Secure; HttpOnly;
+      - ASLBSACORS=0003d23bdb21d1d26e49389ccc45c38671b7cacc89af68a3288af5e9e77addce00c5;
+        SameSite=none; Path=/; Secure; HttpOnly;
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains ; preload
+      Vary:
+      - Accept-Encoding
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-UA-Compatible:
+      - IE=Edge
+      X-XSS-Protection:
+      - 1; mode=block
+      x-azure-ref:
+      - 20260512T222508Z-177476fbf9csd494hC1EWRcxgn00000019000000000029cc
+    status:
+      code: 200
+      message: OK
+version: 1

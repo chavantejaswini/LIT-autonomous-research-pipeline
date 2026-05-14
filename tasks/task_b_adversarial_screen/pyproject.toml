@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adversarial_screen"
+version = "0.1.0"
+description = "Three-detector adversarial screening for institute-perimeter inputs."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Tejaswini Chavan" }]
+dependencies = [
+    "pydantic>=2.6",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "pyyaml>=6.0",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[project.scripts]
+adv-screen-train = "adversarial_screen.scripts_entry:train_main"
+adv-screen-eval = "adversarial_screen.scripts_entry:eval_main"
+adv-screen-check = "adversarial_screen.scripts_entry:check_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+adversarial_screen = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

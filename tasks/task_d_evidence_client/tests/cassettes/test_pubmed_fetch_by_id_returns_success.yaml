@@ -1,0 +1,79 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=23456789&retmode=json
+  response:
+    body:
+      string: "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"23456789\"],\"23456789\":{\"uid\":\"23456789\",\"pubdate\":\"2013
+        May 15\",\"epubdate\":\"2013 Mar 1\",\"source\":\"Cancer\",\"authors\":[{\"name\":\"Sharma
+        A\",\"authtype\":\"Author\",\"clusterid\":\"\"},{\"name\":\"Schwartz SM\",\"authtype\":\"Author\",\"clusterid\":\"\"},{\"name\":\"M\xE9ndez
+        E\",\"authtype\":\"Author\",\"clusterid\":\"\"}],\"lastauthor\":\"M\xE9ndez
+        E\",\"title\":\"Hospital volume is associated with survival but not multimodality
+        therapy in Medicare patients with advanced head and neck cancer.\",\"sorttitle\":\"hospital
+        volume is associated with survival but not multimodality therapy in medicare
+        patients with advanced head and neck cancer\",\"volume\":\"119\",\"issue\":\"10\",\"pages\":\"1845-52\",\"lang\":[\"eng\"],\"nlmuniqueid\":\"0374236\",\"issn\":\"0008-543X\",\"essn\":\"1097-0142\",\"pubtype\":[\"Journal
+        Article\",\"Research Support, N.I.H., Extramural\"],\"recordstatus\":\"PubMed
+        - indexed for MEDLINE\",\"pubstatus\":\"256\",\"articleids\":[{\"idtype\":\"pubmed\",\"idtypen\":1,\"value\":\"23456789\"},{\"idtype\":\"mid\",\"idtypen\":8,\"value\":\"NIHMS864114\"},{\"idtype\":\"pmc\",\"idtypen\":8,\"value\":\"PMC6121709\"},{\"idtype\":\"pmcid\",\"idtypen\":5,\"value\":\"pmc-id:
+        PMC6121709;manuscript-id: NIHMS864114;\"},{\"idtype\":\"doi\",\"idtypen\":3,\"value\":\"10.1002/cncr.27976\"}],\"history\":[{\"pubstatus\":\"received\",\"date\":\"2012/05/02
+        00:00\"},{\"pubstatus\":\"revised\",\"date\":\"2012/10/23 00:00\"},{\"pubstatus\":\"accepted\",\"date\":\"2012/11/20
+        00:00\"},{\"pubstatus\":\"entrez\",\"date\":\"2013/03/05 06:00\"},{\"pubstatus\":\"pubmed\",\"date\":\"2013/03/05
+        06:00\"},{\"pubstatus\":\"medline\",\"date\":\"2013/07/03 06:00\"},{\"pubstatus\":\"pmc-release\",\"date\":\"2018/09/04
+        00:00\"}],\"references\":[],\"attributes\":[\"Has Abstract\"],\"pmcrefcount\":29,\"fulljournalname\":\"Cancer\",\"elocationid\":\"doi:
+        10.1002/cncr.27976\",\"doctype\":\"citation\",\"srccontriblist\":[],\"booktitle\":\"\",\"medium\":\"\",\"edition\":\"\",\"publisherlocation\":\"\",\"publishername\":\"\",\"srcdate\":\"\",\"reportnumber\":\"\",\"availablefromurl\":\"\",\"locationlabel\":\"\",\"doccontriblist\":[],\"docdate\":\"\",\"bookname\":\"\",\"chapter\":\"\",\"sortpubdate\":\"2013/05/15
+        00:00\",\"sortfirstauthor\":\"Sharma A\",\"vernaculartitle\":\"\"}}}\n"
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Alt-Svc:
+      - clear
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 12 May 2026 22:24:42 GMT
+      Ncbi-Phid:
+      - 1D33EFB233AF798500002E8E17EB27BA.1.1.m_1
+      Ncbi-Sid:
+      - C977C1CA10DDCBFB_03E0SID
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie:
+      - ncbi_sid=C977C1CA10DDCBFB_03E0SID; domain=.nih.gov; path=/; expires=Wed, 12
+        May 2027 22:24:42 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 google
+      X-Ratelimit-Limit:
+      - '3'
+      X-Ratelimit-Remaining:
+      - '1'
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

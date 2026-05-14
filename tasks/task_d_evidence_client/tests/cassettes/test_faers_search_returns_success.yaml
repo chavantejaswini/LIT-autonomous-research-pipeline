@@ -1,0 +1,662 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://api.fda.gov/drug/event.json?limit=2&search=patient.drug.medicinalproduct%3A%22METFORMIN%22
+  response:
+    body:
+      string: "{\n  \"meta\": {\n    \"disclaimer\": \"Do not rely on openFDA to make
+        decisions regarding medical care. While we make every effort to ensure that
+        data is accurate, you should assume all results are unvalidated. We may limit
+        or otherwise restrict your access to the API in line with our Terms of Service.\",\n
+        \   \"terms\": \"https://open.fda.gov/terms/\",\n    \"license\": \"https://open.fda.gov/license/\",\n
+        \   \"last_updated\": \"2026-04-28\",\n    \"results\": {\n      \"skip\":
+        0,\n      \"limit\": 2,\n      \"total\": 425796\n    }\n  },\n  \"results\":
+        [\n    {\n      \"safetyreportversion\": \"2\",\n      \"safetyreportid\":
+        \"10003641\",\n      \"primarysourcecountry\": \"US\",\n      \"occurcountry\":
+        \"US\",\n      \"transmissiondateformat\": \"102\",\n      \"transmissiondate\":
+        \"20150720\",\n      \"reporttype\": \"1\",\n      \"serious\": \"2\",\n      \"receivedateformat\":
+        \"102\",\n      \"receivedate\": \"20140312\",\n      \"receiptdateformat\":
+        \"102\",\n      \"receiptdate\": \"20150312\",\n      \"fulfillexpeditecriteria\":
+        \"2\",\n      \"companynumb\": \"US-ABBVIE-13P-163-1090373-00\",\n      \"duplicate\":
+        \"1\",\n      \"reportduplicate\": {\n        \"duplicatesource\": \"ABBVIE\",\n
+        \       \"duplicatenumb\": \"US-ABBVIE-13P-163-1090373-00\"\n      },\n      \"primarysource\":
+        {\n        \"reportercountry\": \"US\",\n        \"qualification\": \"5\"\n
+        \     },\n      \"sender\": {\n        \"sendertype\": \"2\",\n        \"senderorganization\":
+        \"FDA-Public Use\"\n      },\n      \"receiver\": {\n        \"receivertype\":
+        \"6\",\n        \"receiverorganization\": \"FDA\"\n      },\n      \"patient\":
+        {\n        \"patientonsetage\": \"41\",\n        \"patientonsetageunit\":
+        \"801\",\n        \"patientweight\": \"118.04\",\n        \"patientsex\":
+        \"1\",\n        \"reaction\": [\n          {\n            \"reactionmeddraversionpt\":
+        \"18.0\",\n            \"reactionmeddrapt\": \"Medication residue present\",\n
+        \           \"reactionoutcome\": \"3\"\n          }\n        ],\n        \"drug\":
+        [\n          {\n            \"drugcharacterization\": \"1\",\n            \"medicinalproduct\":
+        \"DEPAKOTE\",\n            \"drugbatchnumb\": \"UNKNOWN\",\n            \"drugauthorizationnumb\":
+        \"018723\",\n            \"drugseparatedosagenumb\": \"3\",\n            \"drugintervaldosageunitnumb\":
+        \"1\",\n            \"drugintervaldosagedefinition\": \"804\",\n            \"drugdosagetext\":
+        \"ONE IN AM AND  TWO IN  PM\",\n            \"drugadministrationroute\": \"048\",\n
+        \           \"drugindication\": \"BIPOLAR DISORDER\",\n            \"actiondrug\":
+        \"4\",\n            \"activesubstance\": {\n              \"activesubstancename\":
+        \"DIVALPROEX SODIUM\"\n            },\n            \"openfda\": {\n              \"application_number\":
+        [\n                \"NDA021168\",\n                \"NDA018723\",\n                \"NDA019680\"\n
+        \             ],\n              \"brand_name\": [\n                \"DEPAKOTE
+        ER\",\n                \"DEPAKOTE\",\n                \"DEPAKOTE SPRINKLES\"\n
+        \             ],\n              \"generic_name\": [\n                \"DIVALPROEX
+        SODIUM\"\n              ],\n              \"manufacturer_name\": [\n                \"AbbVie
+        Inc.\"\n              ],\n              \"product_ndc\": [\n                \"0074-7401\",\n
+        \               \"0074-3826\",\n                \"0074-7126\",\n                \"0074-7402\",\n
+        \               \"0074-7325\",\n                \"0074-6212\",\n                \"0074-6214\",\n
+        \               \"0074-6215\",\n                \"0074-7327\",\n                \"0074-7326\",\n
+        \               \"0074-6114\"\n              ],\n              \"product_type\":
+        [\n                \"HUMAN PRESCRIPTION DRUG\"\n              ],\n              \"route\":
+        [\n                \"ORAL\"\n              ],\n              \"substance_name\":
+        [\n                \"DIVALPROEX SODIUM\"\n              ],\n              \"rxcui\":
+        [\n                \"1099563\",\n                \"1099565\",\n                \"1099569\",\n
+        \               \"1099571\",\n                \"1099625\",\n                \"1099626\",\n
+        \               \"1099678\",\n                \"1099679\",\n                \"1099870\",\n
+        \               \"1099871\",\n                \"1099596\",\n                \"1099598\"\n
+        \             ],\n              \"spl_id\": [\n                \"0ee65b66-ead3-44ef-911f-14965b067903\",\n
+        \               \"7cc3a0b3-93f8-4825-88e1-bf6ddb0db23d\",\n                \"d038b7e9-b014-4771-93be-90aeeaece03d\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"0dc024ce-efc8-4690-7cb5-639c728fccac\",\n
+        \               \"08a65cf4-7749-4ceb-6895-8f4805e2b01f\",\n                \"4619aff4-0f80-444f-858d-42e4137aa809\"\n
+        \             ],\n              \"package_ndc\": [\n                \"0074-3826-13\",\n
+        \               \"0074-3826-11\",\n                \"0074-7401-13\",\n                \"0074-7126-13\",\n
+        \               \"0074-7126-53\",\n                \"0074-7126-11\",\n                \"0074-7126-72\",\n
+        \               \"0074-7402-13\",\n                \"0074-6212-13\",\n                \"0074-6214-13\",\n
+        \               \"0074-6214-53\",\n                \"0074-6215-13\",\n                \"0074-6215-53\",\n
+        \               \"0074-7325-13\",\n                \"0074-7327-13\",\n                \"0074-7326-13\",\n
+        \               \"0074-6114-13\",\n                \"0074-6114-11\"\n              ],\n
+        \             \"unii\": [\n                \"644VL95AO6\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"INVEGA\",\n            \"drugindication\":
+        \"BIPOLAR DISORDER\",\n            \"activesubstance\": {\n              \"activesubstancename\":
+        \"PALIPERIDONE\"\n            },\n            \"openfda\": {\n              \"application_number\":
+        [\n                \"NDA021999\"\n              ],\n              \"brand_name\":
+        [\n                \"INVEGA\"\n              ],\n              \"generic_name\":
+        [\n                \"PALIPERIDONE\"\n              ],\n              \"manufacturer_name\":
+        [\n                \"Janssen Pharmaceuticals, Inc.\"\n              ],\n              \"product_ndc\":
+        [\n                \"50458-550\",\n                \"50458-551\",\n                \"50458-552\",\n
+        \               \"50458-554\"\n              ],\n              \"product_type\":
+        [\n                \"HUMAN PRESCRIPTION DRUG\"\n              ],\n              \"route\":
+        [\n                \"ORAL\"\n              ],\n              \"substance_name\":
+        [\n                \"PALIPERIDONE\"\n              ],\n              \"rxcui\":
+        [\n                \"672567\",\n                \"672569\",\n                \"672571\",\n
+        \               \"686441\",\n                \"686443\",\n                \"686445\",\n
+        \               \"866103\",\n                \"866105\"\n              ],\n
+        \             \"spl_id\": [\n                \"3c5e5b30-a841-4dfe-88ce-361806c9275f\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"7b8e5b26-b9e4-4704-921b-3c3c0d159916\"\n
+        \             ],\n              \"package_ndc\": [\n                \"50458-550-01\",\n
+        \               \"50458-550-10\",\n                \"50458-550-98\",\n                \"50458-551-01\",\n
+        \               \"50458-551-10\",\n                \"50458-551-98\",\n                \"50458-552-01\",\n
+        \               \"50458-552-10\",\n                \"50458-552-98\",\n                \"50458-554-01\",\n
+        \               \"50458-554-10\",\n                \"50458-554-98\"\n              ],\n
+        \             \"nui\": [\n                \"N0000175430\"\n              ],\n
+        \             \"pharm_class_epc\": [\n                \"Atypical Antipsychotic
+        [EPC]\"\n              ],\n              \"unii\": [\n                \"838F01T721\"\n
+        \             ]\n            }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"METFORMIN\",\n            \"drugindication\":
+        \"DIABETES MELLITUS\",\n            \"activesubstance\": {\n              \"activesubstancename\":
+        \"METFORMIN HYDROCHLORIDE\"\n            },\n            \"openfda\": {\n
+        \             \"application_number\": [\n                \"ANDA200690\",\n
+        \               \"ANDA209674\",\n                \"ANDA209313\"\n              ],\n
+        \             \"brand_name\": [\n                \"METFORMIN HYDROCHLORIDE\",\n
+        \               \"METFORMIN\"\n              ],\n              \"generic_name\":
+        [\n                \"METFORMIN\",\n                \"METFORMIN ER 500 MG\",\n
+        \               \"METFORMIN ER 750 MG\"\n              ],\n              \"manufacturer_name\":
+        [\n                \"Mylan Pharmaceuticals Inc.\",\n                \"Ingenus
+        Pharmaceuticals, LLC\",\n                \"Granules Pharmaceuticals Inc.\"\n
+        \             ],\n              \"product_ndc\": [\n                \"0378-6001\",\n
+        \               \"0378-6002\",\n                \"50742-633\",\n                \"50742-634\",\n
+        \               \"70010-491\",\n                \"70010-492\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN PRESCRIPTION DRUG\"\n
+        \             ],\n              \"route\": [\n                \"ORAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"METFORMIN HYDROCHLORIDE\"\n
+        \             ],\n              \"rxcui\": [\n                \"1807894\",\n
+        \               \"1807917\",\n                \"860975\",\n                \"860981\"\n
+        \             ],\n              \"spl_id\": [\n                \"7c8e06cd-8ef3-4a03-b4ee-3df6899280cf\",\n
+        \               \"3a97a225-ff03-4d81-a2fe-7f66611cc4c1\",\n                \"451bc376-d523-ee84-e063-6394a90a4743\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"7e41818c-60e9-4bcf-9586-7bb8d33d5e89\",\n
+        \               \"49a0b5c2-ebaf-4c4c-905f-dfd1962ac647\",\n                \"6d6ee6f8-9650-ff4f-e053-2991aa0acf19\"\n
+        \             ],\n              \"package_ndc\": [\n                \"0378-6002-91\",\n
+        \               \"0378-6001-91\",\n                \"50742-633-60\",\n                \"50742-633-90\",\n
+        \               \"50742-633-10\",\n                \"50742-634-30\",\n                \"50742-634-60\",\n
+        \               \"50742-634-10\",\n                \"70010-491-01\",\n                \"70010-491-05\",\n
+        \               \"70010-491-10\",\n                \"70010-491-18\",\n                \"70010-491-19\",\n
+        \               \"70010-491-09\",\n                \"70010-492-01\",\n                \"70010-492-05\",\n
+        \               \"70010-492-20\",\n                \"70010-492-21\"\n              ],\n
+        \             \"unii\": [\n                \"786Z46389E\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"COGENTIN\",\n            \"drugindication\":
+        \"ADVERSE EVENT\",\n            \"activesubstance\": {\n              \"activesubstancename\":
+        \"BENZTROPINE MESYLATE\"\n            }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"BISOPROLOL\",\n            \"drugindication\":
+        \"PRODUCT USED FOR UNKNOWN INDICATION\",\n            \"activesubstance\":
+        {\n              \"activesubstancename\": \"BISOPROLOL\"\n            },\n
+        \           \"openfda\": {\n              \"application_number\": [\n                \"ANDA075474\"\n
+        \             ],\n              \"brand_name\": [\n                \"BISOPROLOL\"\n
+        \             ],\n              \"generic_name\": [\n                \"BISOPROLOL
+        FUMARATE\"\n              ],\n              \"manufacturer_name\": [\n                \"TruPharma,
+        LLC\"\n              ],\n              \"product_ndc\": [\n                \"52817-270\",\n
+        \               \"52817-271\"\n              ],\n              \"product_type\":
+        [\n                \"HUMAN PRESCRIPTION DRUG\"\n              ],\n              \"route\":
+        [\n                \"ORAL\"\n              ],\n              \"substance_name\":
+        [\n                \"BISOPROLOL FUMARATE\"\n              ],\n              \"rxcui\":
+        [\n                \"854901\",\n                \"854905\"\n              ],\n
+        \             \"spl_id\": [\n                \"2a9e4180-cb1c-f924-e063-6394a90a60c6\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"bba0bc2b-602f-4df1-a761-85bd3c80c7de\"\n
+        \             ],\n              \"package_ndc\": [\n                \"52817-270-10\",\n
+        \               \"52817-270-30\",\n                \"52817-271-10\",\n                \"52817-271-30\"\n
+        \             ],\n              \"unii\": [\n                \"UR59KN573L\"\n
+        \             ]\n            }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"COGENTIN\",\n            \"drugindication\":
+        \"PROPHYLAXIS\",\n            \"activesubstance\": {\n              \"activesubstancename\":
+        \"BENZTROPINE MESYLATE\"\n            }\n          }\n        ],\n        \"summary\":
+        {\n          \"narrativeincludeclinical\": \"CASE EVENT DATE: 201304\"\n        }\n
+        \     }\n    },\n    {\n      \"safetyreportversion\": \"1\",\n      \"safetyreportid\":
+        \"10003642\",\n      \"primarysourcecountry\": \"US\",\n      \"occurcountry\":
+        \"US\",\n      \"transmissiondateformat\": \"102\",\n      \"transmissiondate\":
+        \"20141002\",\n      \"reporttype\": \"2\",\n      \"serious\": \"1\",\n      \"seriousnessother\":
+        \"1\",\n      \"receivedateformat\": \"102\",\n      \"receivedate\": \"20140312\",\n
+        \     \"receiptdateformat\": \"102\",\n      \"receiptdate\": \"20140312\",\n
+        \     \"fulfillexpeditecriteria\": \"1\",\n      \"companynumb\": \"US-PFIZER
+        INC-2014058887\",\n      \"duplicate\": \"1\",\n      \"reportduplicate\":
+        {\n        \"duplicatesource\": \"PFIZER\",\n        \"duplicatenumb\": \"US-PFIZER
+        INC-2014058887\"\n      },\n      \"primarysource\": {\n        \"reportercountry\":
+        \"US\",\n        \"qualification\": \"1\"\n      },\n      \"sender\": {\n
+        \       \"sendertype\": \"2\",\n        \"senderorganization\": \"FDA-Public
+        Use\"\n      },\n      \"receiver\": {\n        \"receivertype\": \"6\",\n
+        \       \"receiverorganization\": \"FDA\"\n      },\n      \"patient\": {\n
+        \       \"patientonsetage\": \"66\",\n        \"patientonsetageunit\": \"801\",\n
+        \       \"patientweight\": \"81.41\",\n        \"patientsex\": \"2\",\n        \"reaction\":
+        [\n          {\n            \"reactionmeddraversionpt\": \"17.0\",\n            \"reactionmeddrapt\":
+        \"Osteomyelitis\",\n            \"reactionoutcome\": \"1\"\n          }\n
+        \       ],\n        \"drug\": [\n          {\n            \"drugcharacterization\":
+        \"1\",\n            \"medicinalproduct\": \"TOFACITINIB CITRATE\",\n            \"drugauthorizationnumb\":
+        \"203214\",\n            \"drugstructuredosagenumb\": \"10\",\n            \"drugstructuredosageunit\":
+        \"003\",\n            \"drugseparatedosagenumb\": \"2\",\n            \"drugintervaldosageunitnumb\":
+        \"1\",\n            \"drugintervaldosagedefinition\": \"804\",\n            \"drugcumulativedosagenumb\":
+        \"14380\",\n            \"drugcumulativedosageunit\": \"003\",\n            \"drugdosagetext\":
+        \"10 MG, 2X/DAY\",\n            \"drugdosageform\": \"TABLET\",\n            \"drugadministrationroute\":
+        \"048\",\n            \"drugindication\": \"RHEUMATOID ARTHRITIS\",\n            \"drugstartdateformat\":
+        \"102\",\n            \"drugstartdate\": \"20110712\",\n            \"drugenddateformat\":
+        \"102\",\n            \"drugenddate\": \"20120730\",\n            \"actiondrug\":
+        \"1\"\n          },\n          {\n            \"drugcharacterization\": \"1\",\n
+        \           \"medicinalproduct\": \"TOFACITINIB CITRATE\",\n            \"drugauthorizationnumb\":
+        \"203214\",\n            \"drugstructuredosagenumb\": \"10\",\n            \"drugstructuredosageunit\":
+        \"003\",\n            \"drugseparatedosagenumb\": \"2\",\n            \"drugintervaldosageunitnumb\":
+        \"1\",\n            \"drugintervaldosagedefinition\": \"804\",\n            \"drugcumulativedosagenumb\":
+        \"14380\",\n            \"drugcumulativedosageunit\": \"003\",\n            \"drugdosagetext\":
+        \"10 MG, 2X/DAY\",\n            \"drugdosageform\": \"TABLET\",\n            \"drugadministrationroute\":
+        \"048\",\n            \"drugstartdateformat\": \"102\",\n            \"drugstartdate\":
+        \"20120917\",\n            \"drugenddateformat\": \"102\",\n            \"drugenddate\":
+        \"20130816\",\n            \"actiondrug\": \"1\"\n          },\n          {\n
+        \           \"drugcharacterization\": \"1\",\n            \"medicinalproduct\":
+        \"METHOTREXATE\",\n            \"drugstructuredosagenumb\": \"15\",\n            \"drugstructuredosageunit\":
+        \"003\",\n            \"drugseparatedosagenumb\": \"1\",\n            \"drugintervaldosageunitnumb\":
+        \"1\",\n            \"drugintervaldosagedefinition\": \"803\",\n            \"drugdosagetext\":
+        \"15 MG, WEEKLY\",\n            \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"RHEUMATOID ARTHRITIS\",\n            \"drugstartdateformat\": \"102\",\n
+        \           \"drugstartdate\": \"20121115\",\n            \"actiondrug\":
+        \"1\",\n            \"openfda\": {\n              \"application_number\":
+        [\n                \"ANDA210454\",\n                \"NDA011719\",\n                \"NDA212479\",\n
+        \               \"ANDA040385\",\n                \"ANDA040263\",\n                \"ANDA220225\",\n
+        \               \"ANDA040632\",\n                \"ANDA201529\",\n                \"ANDA201749\",\n
+        \               \"ANDA081235\",\n                \"NDA205776\",\n                \"NDA208400\",\n
+        \               \"ANDA040266\",\n                \"ANDA040843\",\n                \"ANDA207812\",\n
+        \               \"ANDA081099\",\n                \"ANDA040716\",\n                \"ANDA089343\",\n
+        \               \"ANDA089342\",\n                \"ANDA089341\",\n                \"ANDA089340\",\n
+        \               \"ANDA213343\",\n                \"ANDA217552\",\n                \"NDA204824\"\n
+        \             ],\n              \"brand_name\": [\n                \"METHOTREXATE\",\n
+        \               \"JYLAMVO\",\n                \"TREXALL\",\n                \"RASUVO\",\n
+        \               \"XATMEP\",\n                \"OTREXUP\"\n              ],\n
+        \             \"generic_name\": [\n                \"METHOTREXATE\",\n                \"METHOTREXATE
+        SODIUM\"\n              ],\n              \"manufacturer_name\": [\n                \"Chartwell
+        RX, LLC\",\n                \"Hospira, Inc.\",\n                \"SHORLA ONCOLOGY
+        INC.\",\n                \"Teva Women's Health, Inc.\",\n                \"Fresenius
+        Kabi USA, LLC\",\n                \"Alembic Pharmaceuticals Inc.\",\n                \"Hikma
+        Pharmaceuticals USA Inc.\",\n                \"Alembic Pharmaceuticals Limited\",\n
+        \               \"Eugia US LLC\",\n                \"Sun Pharmaceutical Industries,
+        Inc.\",\n                \"Mylan Pharmaceuticals Inc.\",\n                \"Medexus
+        Pharma Inc.\",\n                \"Aurobindo Pharma Limited\",\n                \"Azurity
+        Pharmaceuticals, Inc.\",\n                \"Teva Parenteral Medicines, Inc.\",\n
+        \               \"Zydus Pharmaceuticals USA Inc.\",\n                \"Teva
+        Pharmaceuticals USA, Inc.\",\n                \"Accord Healthcare, Inc.\",\n
+        \               \"Zydus Lifesciences Limited\",\n                \"Accord
+        Healthcare Inc.\",\n                \"Antares Pharma, Inc.\"\n              ],\n
+        \             \"product_ndc\": [\n                \"62135-772\",\n                \"61703-350\",\n
+        \               \"61703-408\",\n                \"81927-204\",\n                \"51285-366\",\n
+        \               \"51285-367\",\n                \"51285-368\",\n                \"51285-369\",\n
+        \               \"63323-123\",\n                \"62332-711\",\n                \"62332-712\",\n
+        \               \"0143-9830\",\n                \"46708-711\",\n                \"46708-712\",\n
+        \               \"55150-510\",\n                \"55150-511\",\n                \"55150-512\",\n
+        \               \"55150-513\",\n                \"47335-235\",\n                \"61703-124\",\n
+        \               \"61703-161\",\n                \"0378-0014\",\n                \"0143-9367\",\n
+        \               \"59137-505\",\n                \"59137-510\",\n                \"59137-515\",\n
+        \               \"59137-520\",\n                \"59137-525\",\n                \"59137-530\",\n
+        \               \"59137-535\",\n                \"59137-540\",\n                \"59137-550\",\n
+        \               \"59651-182\",\n                \"52652-2001\",\n                \"63323-122\",\n
+        \               \"0703-3671\",\n                \"0703-3675\",\n                \"0703-3678\",\n
+        \               \"68382-775\",\n                \"0555-0572\",\n                \"16729-277\",\n
+        \               \"0143-9516\",\n                \"0143-9519\",\n                \"0143-9518\",\n
+        \               \"0143-9517\",\n                \"70771-1058\",\n                \"16729-486\",\n
+        \               \"62332-730\",\n                \"54436-010\",\n                \"54436-075\",\n
+        \               \"54436-012\",\n                \"54436-015\",\n                \"54436-017\",\n
+        \               \"54436-020\",\n                \"54436-022\",\n                \"54436-025\",\n
+        \               \"46708-730\"\n              ],\n              \"product_type\":
+        [\n                \"HUMAN PRESCRIPTION DRUG\"\n              ],\n              \"route\":
+        [\n                \"ORAL\",\n                \"INTRAMUSCULAR\",\n                \"INTRAVENOUS\",\n
+        \               \"SUBCUTANEOUS\",\n                \"INTRATHECAL\",\n                \"INTRA-ARTERIAL\"\n
+        \             ],\n              \"substance_name\": [\n                \"METHOTREXATE
+        SODIUM\",\n                \"METHOTREXATE\"\n              ],\n              \"rxcui\":
+        [\n                \"105585\",\n                \"1655956\",\n                \"1946772\",\n
+        \               \"2671456\",\n                \"2671462\",\n                \"105586\",\n
+        \               \"283510\",\n                \"283511\",\n                \"283671\",\n
+        \               \"284592\",\n                \"284593\",\n                \"284594\",\n
+        \               \"284595\",\n                \"311625\",\n                \"1655959\",\n
+        \               \"1655960\",\n                \"1655967\",\n                \"1655968\",\n
+        \               \"1441416\",\n                \"1544378\",\n                \"1544383\",\n
+        \               \"1544385\",\n                \"1544386\",\n                \"1544387\",\n
+        \               \"1544388\",\n                \"1544389\",\n                \"1544390\",\n
+        \               \"1544394\",\n                \"1544395\",\n                \"1544396\",\n
+        \               \"1544397\",\n                \"1544398\",\n                \"1544401\",\n
+        \               \"1544402\",\n                \"1544403\",\n                \"1544404\",\n
+        \               \"1921592\",\n                \"1921598\",\n                \"1441402\",\n
+        \               \"1441407\",\n                \"1441411\",\n                \"1441413\",\n
+        \               \"1441418\",\n                \"1441422\",\n                \"1441424\",\n
+        \               \"1594757\",\n                \"1594759\",\n                \"1747179\",\n
+        \               \"1747181\",\n                \"1747185\",\n                \"1747187\",\n
+        \               \"1747192\",\n                \"1747194\"\n              ],\n
+        \             \"spl_id\": [\n                \"462a5023-e5a1-692a-e063-6294a90a7236\",\n
+        \               \"95b8b8da-da4e-4bba-9038-3cf65f3d5c1a\",\n                \"37b3e76b-ac3d-4f93-adf1-91f52f676b8a\",\n
+        \               \"3a5966e9-256b-4595-b962-e00d07526623\",\n                \"6743bd6d-9c6b-4f43-b444-8faa4b5d5221\",\n
+        \               \"880c2caa-1b11-45ce-a54e-a3733da367f0\",\n                \"91ce9c78-370f-49a1-ae22-428bdddb389f\",\n
+        \               \"49eb25b2-c59c-4374-a216-076767fe1126\",\n                \"e98b2abd-8068-482e-9ce3-1ab262f0838e\",\n
+        \               \"adc6f7e8-b3a3-476a-9939-0c5cbda63dbd\",\n                \"3d5227aa-72b3-4a55-9674-8e1befe9bdd2\",\n
+        \               \"6bb8643f-6ab4-4e1c-bcf9-b82e8cf18910\",\n                \"46bf7676-b1a4-44c3-a4f0-aad2cfb6d2a3\",\n
+        \               \"7950579c-084b-472b-a7ce-f342691aff97\",\n                \"29d04017-dd64-4dea-a064-7b3b0805f423\",\n
+        \               \"e043b6f9-a7aa-4a26-bdc7-e475a43edd4a\",\n                \"461e9d94-1451-904d-e063-6294a90a05f4\",\n
+        \               \"3d21237a-ef53-4592-bf06-0c739696203d\",\n                \"e81074cc-12b4-4ac9-a5bb-749188989b2c\",\n
+        \               \"12e61f0c-901b-4891-9a52-0cf78ebe64b6\",\n                \"c21629c1-6adf-4f56-9a95-a7ec698a2e6f\",\n
+        \               \"2bae3cfe-7aa0-c14c-e063-6294a90a19f4\",\n                \"3046ff78-3565-46d1-a88b-283e5ff6e7c3\",\n
+        \               \"ae399908-cfb6-44dc-83da-8981f5dabbb8\",\n                \"424d715c-25c3-6376-e063-6294a90a2ef4\",\n
+        \               \"f8955339-3c07-40ab-a866-ac75398ad2d6\",\n                \"2d07eb50-d314-a6a0-e063-6394a90ac970\",\n
+        \               \"ff55c573-dc84-4ff3-9d10-2b24c47dd679\"\n              ],\n
+        \             \"spl_set_id\": [\n                \"2609da8f-80dc-448e-8eba-35d11488ce7f\",\n
+        \               \"0d63ba29-b692-41b4-87e8-351265c8273f\",\n                \"0e30eaef-5a09-4104-8a11-c32933eadeab\",\n
+        \               \"96e931f5-51ae-4bdf-a441-bb0dd26d4c0e\",\n                \"e942f8db-510f-44d6-acb5-b822196f5e8c\",\n
+        \               \"b585f621-f6c9-4735-ab61-bd1b401f3df0\",\n                \"a63364d5-4dfa-49d7-8a5e-c8959ae1d37a\",\n
+        \               \"b080eb92-fc72-4ce6-a7ab-3f9ce2415526\",\n                \"e98b2abd-8068-482e-9ce3-1ab262f0838e\",\n
+        \               \"63bb6fbf-dd59-4edc-af8f-d0c397ca1262\",\n                \"8f1260de-b60c-4f0e-8af6-0e957b0a281b\",\n
+        \               \"bd287e89-32f9-4396-95fa-4b562869f476\",\n                \"70c09984-2b36-424f-8b27-3fd0cd4e833d\",\n
+        \               \"8593f7fc-eabe-44ae-bb05-b3d7d408e4f7\",\n                \"d0075461-0e7e-4967-9c9b-d6440e912c0e\",\n
+        \               \"09931d44-a3f8-49dc-a3f2-b527ee4214bf\",\n                \"aec9984e-34c5-481b-b6bf-9bb5caf1daf8\",\n
+        \               \"ec476b11-0b3c-4139-b1eb-a3daa76bc271\",\n                \"346ec9ce-dc98-4a55-b55e-d3af11f2d703\",\n
+        \               \"948e0bab-6524-4b87-9853-1799d4415558\",\n                \"9b34b1d8-d125-41a2-9f6f-3fab67b573bd\",\n
+        \               \"dd035a9f-cd40-4314-b9d8-2294b8a924e2\",\n                \"3989d30d-56e5-4e8d-9379-c30fecc894f2\",\n
+        \               \"59ea7b32-2b6d-4197-92c3-015936f04ebe\",\n                \"874c7f43-a3be-4236-89cc-24c44e3c5813\",\n
+        \               \"04a95db9-a124-4b97-bd71-1c37a6b3b0c8\",\n                \"9ab8ce16-f7de-41d4-a4c8-1c742621b6d5\",\n
+        \               \"ff55c573-dc84-4ff3-9d10-2b24c47dd679\"\n              ],\n
+        \             \"package_ndc\": [\n                \"62135-772-35\",\n                \"61703-350-37\",\n
+        \               \"61703-350-38\",\n                \"61703-408-41\",\n                \"61703-350-09\",\n
+        \               \"61703-350-10\",\n                \"61703-408-25\",\n                \"81927-204-01\",\n
+        \               \"51285-366-01\",\n                \"51285-367-01\",\n                \"51285-368-01\",\n
+        \               \"51285-369-01\",\n                \"63323-123-10\",\n                \"62332-711-01\",\n
+        \               \"62332-711-05\",\n                \"62332-712-01\",\n                \"0143-9830-01\",\n
+        \               \"46708-711-01\",\n                \"46708-711-05\",\n                \"46708-712-01\",\n
+        \               \"55150-510-01\",\n                \"55150-510-05\",\n                \"55150-511-01\",\n
+        \               \"55150-511-10\",\n                \"55150-512-01\",\n                \"55150-512-10\",\n
+        \               \"55150-513-01\",\n                \"47335-235-96\",\n                \"47335-235-83\",\n
+        \               \"61703-124-40\",\n                \"61703-161-02\",\n                \"61703-161-05\",\n
+        \               \"0378-0014-01\",\n                \"0143-9367-01\",\n                \"59137-505-00\",\n
+        \               \"59137-505-01\",\n                \"59137-505-04\",\n                \"59137-510-00\",\n
+        \               \"59137-510-01\",\n                \"59137-510-04\",\n                \"59137-515-00\",\n
+        \               \"59137-515-01\",\n                \"59137-515-04\",\n                \"59137-520-00\",\n
+        \               \"59137-520-01\",\n                \"59137-520-04\",\n                \"59137-525-00\",\n
+        \               \"59137-525-01\",\n                \"59137-525-04\",\n                \"59137-530-00\",\n
+        \               \"59137-530-01\",\n                \"59137-530-04\",\n                \"59137-535-00\",\n
+        \               \"59137-535-01\",\n                \"59137-535-04\",\n                \"59137-540-00\",\n
+        \               \"59137-540-01\",\n                \"59137-540-04\",\n                \"59137-550-00\",\n
+        \               \"59137-550-01\",\n                \"59137-550-04\",\n                \"59651-182-36\",\n
+        \               \"59651-182-01\",\n                \"52652-2001-1\",\n                \"52652-2001-6\",\n
+        \               \"63323-122-50\",\n                \"0703-3671-01\",\n                \"0703-3675-01\",\n
+        \               \"0703-3678-01\",\n                \"68382-775-60\",\n                \"68382-775-16\",\n
+        \               \"68382-775-01\",\n                \"68382-775-05\",\n                \"68382-775-10\",\n
+        \               \"68382-775-77\",\n                \"0555-0572-35\",\n                \"0555-0572-02\",\n
+        \               \"16729-277-30\",\n                \"16729-277-03\",\n                \"16729-277-35\",\n
+        \               \"0143-9519-10\",\n                \"0143-9518-01\",\n                \"0143-9517-01\",\n
+        \               \"0143-9516-01\",\n                \"70771-1058-3\",\n                \"70771-1058-9\",\n
+        \               \"70771-1058-1\",\n                \"70771-1058-5\",\n                \"70771-1058-0\",\n
+        \               \"70771-1058-2\",\n                \"70771-1058-7\",\n                \"16729-486-36\",\n
+        \               \"16729-486-01\",\n                \"62332-730-36\",\n                \"62332-730-31\",\n
+        \               \"54436-075-01\",\n                \"54436-075-02\",\n                \"54436-075-04\",\n
+        \               \"54436-010-01\",\n                \"54436-010-03\",\n                \"54436-010-02\",\n
+        \               \"54436-010-04\",\n                \"54436-012-01\",\n                \"54436-012-03\",\n
+        \               \"54436-012-02\",\n                \"54436-012-04\",\n                \"54436-015-01\",\n
+        \               \"54436-015-03\",\n                \"54436-015-02\",\n                \"54436-015-04\",\n
+        \               \"54436-017-01\",\n                \"54436-017-03\",\n                \"54436-017-02\",\n
+        \               \"54436-017-04\",\n                \"54436-020-01\",\n                \"54436-020-03\",\n
+        \               \"54436-020-02\",\n                \"54436-020-04\",\n                \"54436-022-01\",\n
+        \               \"54436-022-03\",\n                \"54436-022-02\",\n                \"54436-022-04\",\n
+        \               \"54436-025-01\",\n                \"54436-025-03\",\n                \"54436-025-02\",\n
+        \               \"54436-025-04\",\n                \"46708-730-36\",\n                \"46708-730-31\"\n
+        \             ],\n              \"unii\": [\n                \"3IG1E710ZN\",\n
+        \               \"YL5FZ2Y5U1\"\n              ],\n              \"nui\": [\n
+        \               \"N0000175584\",\n                \"N0000000111\"\n              ],\n
+        \             \"pharm_class_epc\": [\n                \"Folate Analog Metabolic
+        Inhibitor [EPC]\"\n              ],\n              \"pharm_class_moa\": [\n
+        \               \"Folic Acid Metabolism Inhibitors [MoA]\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"SEA KELP\",\n            \"drugstructuredosagenumb\":
+        \"100\",\n            \"drugstructuredosageunit\": \"003\",\n            \"drugseparatedosagenumb\":
+        \"2\",\n            \"drugintervaldosageunitnumb\": \"1\",\n            \"drugintervaldosagedefinition\":
+        \"804\",\n            \"drugdosagetext\": \"100 MG, 2X/DAY\",\n            \"drugadministrationroute\":
+        \"048\",\n            \"drugindication\": \"SUPPLEMENTATION THERAPY\",\n            \"drugstartdateformat\":
+        \"102\",\n            \"drugstartdate\": \"20120601\"\n          },\n          {\n
+        \           \"drugcharacterization\": \"2\",\n            \"medicinalproduct\":
+        \"ARMOUR THYROID\",\n            \"drugstructuredosagenumb\": \"240\",\n            \"drugstructuredosageunit\":
+        \"003\",\n            \"drugdosagetext\": \"240 MG, DAILY\",\n            \"drugadministrationroute\":
+        \"048\",\n            \"drugindication\": \"HYPOTHYROIDISM\",\n            \"drugstartdateformat\":
+        \"602\",\n            \"drugstartdate\": \"1969\",\n            \"openfda\":
+        {\n              \"brand_name\": [\n                \"ARMOUR THYROID\"\n              ],\n
+        \             \"generic_name\": [\n                \"THYROID, PORCINE\"\n
+        \             ],\n              \"manufacturer_name\": [\n                \"Allergan,
+        Inc.\"\n              ],\n              \"product_ndc\": [\n                \"0456-0457\",\n
+        \               \"0456-1045\",\n                \"0456-0458\",\n                \"0456-0459\",\n
+        \               \"0456-0460\",\n                \"0456-0461\",\n                \"0456-0462\",\n
+        \               \"0456-0463\",\n                \"0456-0464\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN PRESCRIPTION DRUG\"\n
+        \             ],\n              \"route\": [\n                \"ORAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"SUS SCROFA THYROID\"\n
+        \             ],\n              \"rxcui\": [\n                \"198278\",\n
+        \               \"208534\",\n                \"208535\",\n                \"208540\",\n
+        \               \"208543\",\n                \"208544\",\n                \"208545\",\n
+        \               \"208547\",\n                \"208549\",\n                \"208551\",\n
+        \               \"313385\",\n                \"313387\",\n                \"313391\",\n
+        \               \"313393\",\n                \"314267\",\n                \"315235\"\n
+        \             ],\n              \"spl_id\": [\n                \"ab321d4d-8775-4006-bab1-bd5397673ce2\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"56b41079-60db-4256-9695-202b3a65d13d\"\n
+        \             ],\n              \"package_ndc\": [\n                \"0456-0457-01\",\n
+        \               \"0456-1045-01\",\n                \"0456-0458-01\",\n                \"0456-0458-11\",\n
+        \               \"0456-0458-63\",\n                \"0456-0459-01\",\n                \"0456-0459-11\",\n
+        \               \"0456-0459-63\",\n                \"0456-0460-01\",\n                \"0456-0461-01\",\n
+        \               \"0456-0461-11\",\n                \"0456-0461-63\",\n                \"0456-0462-01\",\n
+        \               \"0456-0463-01\",\n                \"0456-0464-01\"\n              ],\n
+        \             \"unii\": [\n                \"6RV024OAUQ\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"LOSARTAN\",\n            \"drugstructuredosagenumb\":
+        \"100\",\n            \"drugstructuredosageunit\": \"003\",\n            \"drugdosagetext\":
+        \"100 MG, DAILY\",\n            \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"HYPERTENSION\",\n            \"drugstartdateformat\": \"102\",\n            \"drugstartdate\":
+        \"20110620\",\n            \"openfda\": {\n              \"application_number\":
+        [\n                \"ANDA215959\"\n              ],\n              \"brand_name\":
+        [\n                \"LOSARTAN POTASSIUM\"\n              ],\n              \"generic_name\":
+        [\n                \"LOSARTAN\"\n              ],\n              \"manufacturer_name\":
+        [\n                \"Granules Pharmaceuticals Inc.\",\n                \"Granules
+        India Ltd\"\n              ],\n              \"product_ndc\": [\n                \"70010-741\",\n
+        \               \"70010-742\",\n                \"70010-743\",\n                \"62207-741\",\n
+        \               \"62207-742\",\n                \"62207-743\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN PRESCRIPTION DRUG\"\n
+        \             ],\n              \"route\": [\n                \"ORAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"LOSARTAN POTASSIUM\"\n
+        \             ],\n              \"rxcui\": [\n                \"979480\",\n
+        \               \"979485\",\n                \"979492\"\n              ],\n
+        \             \"spl_id\": [\n                \"451da3de-077d-522d-e063-6394a90a3537\",\n
+        \               \"39e0a359-f9d7-c3fb-e063-6394a90a86a8\"\n              ],\n
+        \             \"spl_set_id\": [\n                \"ca012edc-923d-4ada-a261-db82b71b3c4f\",\n
+        \               \"f9953f51-f30a-952d-e053-6394a90abf5f\"\n              ],\n
+        \             \"package_ndc\": [\n                \"70010-741-03\",\n                \"70010-741-09\",\n
+        \               \"70010-741-10\",\n                \"70010-742-03\",\n                \"70010-742-09\",\n
+        \               \"70010-742-10\",\n                \"70010-743-03\",\n                \"70010-743-09\",\n
+        \               \"70010-743-10\",\n                \"62207-741-54\",\n                \"62207-741-49\",\n
+        \               \"62207-742-54\",\n                \"62207-742-49\",\n                \"62207-743-54\",\n
+        \               \"62207-743-49\"\n              ],\n              \"unii\":
+        [\n                \"3ST302B24A\"\n              ]\n            }\n          },\n
+        \         {\n            \"drugcharacterization\": \"2\",\n            \"medicinalproduct\":
+        \"METFORMIN\",\n            \"drugstructuredosagenumb\": \"1000\",\n            \"drugstructuredosageunit\":
+        \"003\",\n            \"drugseparatedosagenumb\": \"2\",\n            \"drugintervaldosageunitnumb\":
+        \"1\",\n            \"drugintervaldosagedefinition\": \"804\",\n            \"drugdosagetext\":
+        \"1000 MG, 2X/DAY\",\n            \"drugadministrationroute\": \"048\",\n
+        \           \"drugindication\": \"TYPE 2 DIABETES MELLITUS\",\n            \"drugstartdateformat\":
+        \"602\",\n            \"drugstartdate\": \"2003\",\n            \"openfda\":
+        {\n              \"application_number\": [\n                \"ANDA200690\",\n
+        \               \"ANDA209674\",\n                \"ANDA209313\"\n              ],\n
+        \             \"brand_name\": [\n                \"METFORMIN HYDROCHLORIDE\",\n
+        \               \"METFORMIN\"\n              ],\n              \"generic_name\":
+        [\n                \"METFORMIN\",\n                \"METFORMIN ER 500 MG\",\n
+        \               \"METFORMIN ER 750 MG\"\n              ],\n              \"manufacturer_name\":
+        [\n                \"Mylan Pharmaceuticals Inc.\",\n                \"Ingenus
+        Pharmaceuticals, LLC\",\n                \"Granules Pharmaceuticals Inc.\"\n
+        \             ],\n              \"product_ndc\": [\n                \"0378-6001\",\n
+        \               \"0378-6002\",\n                \"50742-633\",\n                \"50742-634\",\n
+        \               \"70010-491\",\n                \"70010-492\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN PRESCRIPTION DRUG\"\n
+        \             ],\n              \"route\": [\n                \"ORAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"METFORMIN HYDROCHLORIDE\"\n
+        \             ],\n              \"rxcui\": [\n                \"1807894\",\n
+        \               \"1807917\",\n                \"860975\",\n                \"860981\"\n
+        \             ],\n              \"spl_id\": [\n                \"7c8e06cd-8ef3-4a03-b4ee-3df6899280cf\",\n
+        \               \"3a97a225-ff03-4d81-a2fe-7f66611cc4c1\",\n                \"451bc376-d523-ee84-e063-6394a90a4743\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"7e41818c-60e9-4bcf-9586-7bb8d33d5e89\",\n
+        \               \"49a0b5c2-ebaf-4c4c-905f-dfd1962ac647\",\n                \"6d6ee6f8-9650-ff4f-e053-2991aa0acf19\"\n
+        \             ],\n              \"package_ndc\": [\n                \"0378-6002-91\",\n
+        \               \"0378-6001-91\",\n                \"50742-633-60\",\n                \"50742-633-90\",\n
+        \               \"50742-633-10\",\n                \"50742-634-30\",\n                \"50742-634-60\",\n
+        \               \"50742-634-10\",\n                \"70010-491-01\",\n                \"70010-491-05\",\n
+        \               \"70010-491-10\",\n                \"70010-491-18\",\n                \"70010-491-19\",\n
+        \               \"70010-491-09\",\n                \"70010-492-01\",\n                \"70010-492-05\",\n
+        \               \"70010-492-20\",\n                \"70010-492-21\"\n              ],\n
+        \             \"unii\": [\n                \"786Z46389E\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"VITAMIN E\",\n            \"drugstructuredosagenumb\":
+        \"1\",\n            \"drugstructuredosageunit\": \"032\",\n            \"drugdosagetext\":
+        \"1 DF (CAPSULE), DAILY\",\n            \"drugdosageform\": \"CAPSULE\",\n
+        \           \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"SUPPLEMENTATION THERAPY\",\n            \"drugstartdateformat\": \"102\",\n
+        \           \"drugstartdate\": \"20110201\",\n            \"openfda\": {\n
+        \             \"application_number\": [\n                \"505G(a)(3)\"\n
+        \             ],\n              \"brand_name\": [\n                \"STYE
+        EYE RELIEF SERUM\"\n              ],\n              \"generic_name\": [\n
+        \               \"VITAMIN E\"\n              ],\n              \"manufacturer_name\":
+        [\n                \"Guangzhou Mizi Biotechnology Co., LTD.\"\n              ],\n
+        \             \"product_ndc\": [\n                \"84896-001\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN OTC DRUG\"\n              ],\n
+        \             \"route\": [\n                \"TOPICAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"ACETYL HEXAPEPTIDE-8
+        AMIDE\",\n                \"ASCORBIC ACID\",\n                \"ASPARTIC ACID\",\n
+        \               \"LYSINE\",\n                \"PREZATIDE COPPER\"\n              ],\n
+        \             \"spl_id\": [\n                \"46218208-8a0f-d622-e063-6394a90ab43c\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"3f60193e-4b95-6759-e063-6394a90a991c\"\n
+        \             ],\n              \"package_ndc\": [\n                \"84896-001-01\"\n
+        \             ],\n              \"nui\": [\n                \"N0000193618\",\n
+        \               \"M0001797\"\n              ],\n              \"pharm_class_epc\":
+        [\n                \"Vitamin C [EPC]\"\n              ],\n              \"pharm_class_cs\":
+        [\n                \"Ascorbic Acid [CS]\"\n              ],\n              \"unii\":
+        [\n                \"L4EL31FWIL\",\n                \"PQ6CK8PD0R\",\n                \"30KYC7MIAI\",\n
+        \               \"K3Z4F929H6\",\n                \"6BJQ43T1I9\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"OMEGA 3-6-9\",\n            \"drugstructuredosagenumb\":
+        \"1\",\n            \"drugstructuredosageunit\": \"032\",\n            \"drugdosagetext\":
+        \"1 DF (CAPSULE), DAILY\",\n            \"drugdosageform\": \"CAPSULE\",\n
+        \           \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"SUPPLEMENTATION THERAPY\",\n            \"drugstartdateformat\": \"102\",\n
+        \           \"drugstartdate\": \"20110201\"\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"JANUVIA\",\n            \"drugstructuredosagenumb\":
+        \"100\",\n            \"drugstructuredosageunit\": \"003\",\n            \"drugdosagetext\":
+        \"100 MG, DAILY\",\n            \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"TYPE 2 DIABETES MELLITUS\",\n            \"drugstartdateformat\": \"102\",\n
+        \           \"drugstartdate\": \"20111114\",\n            \"openfda\": {\n
+        \             \"application_number\": [\n                \"NDA021995\"\n              ],\n
+        \             \"brand_name\": [\n                \"JANUVIA\"\n              ],\n
+        \             \"generic_name\": [\n                \"SITAGLIPTIN\"\n              ],\n
+        \             \"manufacturer_name\": [\n                \"Merck Sharp & Dohme
+        LLC\"\n              ],\n              \"product_ndc\": [\n                \"0006-0112\",\n
+        \               \"0006-0221\",\n                \"0006-0277\"\n              ],\n
+        \             \"product_type\": [\n                \"HUMAN PRESCRIPTION DRUG\"\n
+        \             ],\n              \"route\": [\n                \"ORAL\"\n              ],\n
+        \             \"substance_name\": [\n                \"SITAGLIPTIN PHOSPHATE\"\n
+        \             ],\n              \"rxcui\": [\n                \"665036\",\n
+        \               \"665040\",\n                \"665044\",\n                \"2709603\",\n
+        \               \"2709608\",\n                \"2709612\"\n              ],\n
+        \             \"spl_id\": [\n                \"71d449de-955b-4711-9a44-1e1f66e2e9eb\"\n
+        \             ],\n              \"spl_set_id\": [\n                \"f85a48d0-0407-4c50-b0fa-7673a160bf01\"\n
+        \             ],\n              \"package_ndc\": [\n                \"0006-0221-01\",\n
+        \               \"0006-0221-28\",\n                \"0006-0221-31\",\n                \"0006-0221-54\",\n
+        \               \"0006-0112-01\",\n                \"0006-0112-28\",\n                \"0006-0112-31\",\n
+        \               \"0006-0112-54\",\n                \"0006-0277-01\",\n                \"0006-0277-28\",\n
+        \               \"0006-0277-31\",\n                \"0006-0277-54\",\n                \"0006-0277-02\",\n
+        \               \"0006-0277-33\",\n                \"0006-0277-82\",\n                \"0006-0277-14\",\n
+        \               \"0006-0277-27\",\n                \"0006-0277-30\"\n              ],\n
+        \             \"unii\": [\n                \"TS63EW8X6F\"\n              ]\n
+        \           }\n          },\n          {\n            \"drugcharacterization\":
+        \"2\",\n            \"medicinalproduct\": \"FOLIC ACID\",\n            \"drugstructuredosagenumb\":
+        \"2\",\n            \"drugstructuredosageunit\": \"003\",\n            \"drugdosagetext\":
+        \"2 MG, DAILY\",\n            \"drugadministrationroute\": \"048\",\n            \"drugindication\":
+        \"SUPPLEMENTATION THERAPY\",\n            \"drugstartdateformat\": \"602\",\n
+        \           \"drugstartdate\": \"2005\",\n            \"openfda\": {\n              \"brand_name\":
+        [\n                \"VENTRIXYL\",\n                \"FOLIC ACID\",\n                \"QUIOFIC\",\n
+        \               \"VENEXA\",\n                \"VITRAMYN\",\n                \"MULTITAM\",\n
+        \               \"VITREXYL\",\n                \"VITREXATE\",\n                \"VITRANOL\"\n
+        \             ],\n              \"generic_name\": [\n                \"FOLIC
+        ACID\"\n              ],\n              \"manufacturer_name\": [\n                \"PureTek
+        Corporation\",\n                \"Leading Pharma, LLC\",\n                \"Amneal
+        Pharmaceuticals of New York LLC\",\n                \"Solubiomix, LLC\",\n
+        \               \"Cadila Pharmaceuticals Limited\",\n                \"Ayurax,
+        LLC\",\n                \"SUNRISE PHARMACEUTICAL, INC.\",\n                \"Modavar
+        Pharmaceuticals LLC\",\n                \"Method Pharmaceuticals, LLC\",\n
+        \               \"XGen Pharmaceuticals DJB, Inc.\",\n                \"QUAGEN
+        PHARMACEUTICALS LLC\",\n                \"Rising Pharma Holdings, Inc.\",\n
+        \               \"Amneal Pharmaceuticals LLC\",\n                \"Fresenius
+        Kabi USA, LLC\",\n                \"Chartwell RX, LLC.\"\n              ],\n
+        \             \"product_ndc\": [\n                \"59088-186\",\n                \"69315-127\",\n
+        \               \"53746-361\",\n                \"69499-501\",\n                \"59088-176\",\n
+        \               \"71209-007\",\n                \"73308-501\",\n                \"11534-165\",\n
+        \               \"72241-050\",\n                \"58657-151\",\n                \"59088-193\",\n
+        \               \"39822-1100\",\n                \"70752-231\",\n                \"16571-881\",\n
+        \               \"65162-361\",\n                \"59088-525\",\n                \"59088-164\",\n
+        \               \"59088-167\",\n                \"59088-171\",\n                \"63323-184\",\n
+        \               \"62135-210\"\n              ],\n              \"product_type\":
+        [\n                \"HUMAN PRESCRIPTION DRUG\"\n              ],\n              \"route\":
+        [\n                \"ORAL\",\n                \"INTRAMUSCULAR\",\n                \"INTRAVENOUS\",\n
+        \               \"SUBCUTANEOUS\"\n              ],\n              \"substance_name\":
+        [\n                \".ALPHA.-TOCOPHEROL ACETATE, DL-\",\n                \"ASCORBIC
+        ACID\",\n                \"CALCIUM CARBONATE\",\n                \"CHOLECALCIFEROL\",\n
+        \               \"CHROMIUM NICOTINATE\",\n                \"CYANOCOBALAMIN\",\n
+        \               \"FOLIC ACID\",\n                \"MAGNESIUM OXIDE\",\n                \"MANGANESE
+        SULFATE\",\n                \"MOLYBDENUM\",\n                \"NIACINAMIDE\",\n
+        \               \"PYRIDOXINE HYDROCHLORIDE\",\n                \"RIBOFLAVIN\",\n
+        \               \"SELENIUM\",\n                \"THIAMINE MONONITRATE\",\n
+        \               \"VITAMIN A ACETATE\",\n                \"ZINC OXIDE\"\n              ],\n
+        \             \"spl_id\": [\n                \"286669b9-5e8e-a446-e063-6394a90a2287\",\n
+        \               \"92322e52-3179-4738-8c8a-14fef62311d4\",\n                \"299a16c1-9627-45e2-a30c-e0f07ae9399a\",\n
+        \               \"c0176981-bd6e-480f-9167-80555050b025\",\n                \"f204b6b0-92af-3c22-e053-2995a90ad0aa\",\n
+        \               \"fdcdd5ea-a352-4b01-a972-2ed5a82e3a61\",\n                \"f6a753c1-e141-42a5-b758-7faad81c9427\",\n
+        \               \"5250e701-9f7a-42a8-bae9-95c4779f06aa\",\n                \"f1dbb47b-a3bd-472b-b565-053e5db411eb\",\n
+        \               \"41b4d71d-2dc2-36bd-e063-6294a90af1e1\",\n                \"2865e52f-9f39-2fc9-e063-6394a90a2e7a\",\n
+        \               \"48eb23cf-7425-a5cc-e063-6294a90a5021\",\n                \"4a4f7bbb-97a0-4ac3-a044-1059d5e772ba\",\n
+        \               \"341528b8-768e-4117-ab05-ee2914d7889c\",\n                \"e5ed5369-340d-40ad-b863-c02fd63d5911\",\n
+        \               \"274f89b0-adf5-4ee7-e063-6294a90a7e8c\",\n                \"f2048b24-433c-98ba-e053-2995a90a5e85\",\n
+        \               \"f204b4b3-176f-8839-e053-2a95a90a7115\",\n                \"2445290b-6803-4364-ab42-65e6c550fdcd\",\n
+        \               \"2589605c-12b7-ed10-e063-6294a90ab52b\"\n              ],\n
+        \             \"spl_set_id\": [\n                \"c29dc729-93be-2a20-e053-2a95a90a8ca3\",\n
+        \               \"1ba8c407-9613-4319-ac40-0a429cb0f3f4\",\n                \"fd85395e-6a0b-4072-a80b-36095c0c6dd6\",\n
+        \               \"b868b314-591d-458b-be82-2bcd0b73cce1\",\n                \"ba130779-cdfd-086d-e053-2a95a90a2590\",\n
+        \               \"103c2cdd-5822-48ba-b62a-e2b11aa444ef\",\n                \"96618bf8-6c03-4df3-9896-b7ef27ca392a\",\n
+        \               \"6854412b-7ecb-4107-85eb-730f14e23f06\",\n                \"0eea15e4-7e5d-44e9-818b-a0bdf5271c78\",\n
+        \               \"b9c315ff-cecb-8b75-e053-2995a90aa204\",\n                \"c8af7616-5178-6df0-e053-2a95a90a334d\",\n
+        \               \"c5b2b84d-9f5e-4b81-ba10-9f2854e5dce9\",\n                \"354366ea-3702-4706-9fc0-0244b7278bd8\",\n
+        \               \"0baa10dd-6d1d-4946-8236-566451132da3\",\n                \"c8fe09f0-b32b-43e3-8de7-ed38593b33b4\",\n
+        \               \"cee15842-4a9e-c6ba-e053-2a95a90aebc5\",\n                \"ae064a9e-daba-fa86-e053-2a95a90a16a7\",\n
+        \               \"b34fee43-bea9-45b7-e053-2a95a90aad4d\",\n                \"e215318c-4f8b-4711-ae76-f370d1da0f3b\",\n
+        \               \"9a533666-8906-438e-adf7-11bb162ecb63\"\n              ],\n
+        \             \"package_ndc\": [\n                \"59088-186-54\",\n                \"69315-127-01\",\n
+        \               \"69315-127-10\",\n                \"53746-361-01\",\n                \"53746-361-10\",\n
+        \               \"69499-501-75\",\n                \"59088-176-54\",\n                \"71209-007-05\",\n
+        \               \"71209-007-11\",\n                \"73308-501-75\",\n                \"11534-165-01\",\n
+        \               \"11534-165-03\",\n                \"11534-165-90\",\n                \"72241-050-05\",\n
+        \               \"72241-050-11\",\n                \"58657-151-10\",\n                \"58657-151-01\",\n
+        \               \"59088-193-54\",\n                \"39822-1100-1\",\n                \"70752-231-10\",\n
+        \               \"70752-231-11\",\n                \"16571-881-10\",\n                \"16571-881-01\",\n
+        \               \"65162-361-01\",\n                \"65162-361-10\",\n                \"65162-361-50\",\n
+        \               \"65162-361-11\",\n                \"59088-525-54\",\n                \"59088-164-54\",\n
+        \               \"59088-171-54\",\n                \"59088-167-54\",\n                \"63323-184-10\",\n
+        \               \"62135-210-90\",\n                \"62135-210-01\",\n                \"62135-210-05\",\n
+        \               \"62135-210-10\",\n                \"62135-210-72\",\n                \"62135-210-97\"\n
+        \             ],\n              \"nui\": [\n                \"N0000193618\",\n
+        \               \"M0001797\",\n                \"M0022797\",\n                \"N0000175952\",\n
+        \               \"M0022794\",\n                \"N0000175951\"\n              ],\n
+        \             \"pharm_class_epc\": [\n                \"Vitamin C [EPC]\",\n
+        \               \"Vitamin D [EPC]\",\n                \"Vitamin B12 [EPC]\"\n
+        \             ],\n              \"pharm_class_cs\": [\n                \"Ascorbic
+        Acid [CS]\",\n                \"Vitamin D [CS]\",\n                \"Vitamin
+        B 12 [CS]\"\n              ],\n              \"unii\": [\n                \"WR1WPI7EW8\",\n
+        \               \"PQ6CK8PD0R\",\n                \"H0G9379FGK\",\n                \"1C6V77QF41\",\n
+        \               \"A150AY412V\",\n                \"P6YC3EG204\",\n                \"935E97BOY8\",\n
+        \               \"3A3U0GI71G\",\n                \"W00LYS4T26\",\n                \"81AH48963U\",\n
+        \               \"25X51I8RD4\",\n                \"68Y4CF58BV\",\n                \"TLM2976OFR\",\n
+        \               \"H6241UJ22B\",\n                \"8K0I04919X\",\n                \"3LE3D9D6OY\",\n
+        \               \"SOI2LOH54Z\"\n              ],\n              \"application_number\":
+        [\n                \"ANDA040796\",\n                \"ANDA040625\",\n                \"NDA216395\",\n
+        \               \"ANDA202437\",\n                \"ANDA204418\",\n                \"ANDA211064\",\n
+        \               \"ANDA202522\",\n                \"ANDA091145\",\n                \"ANDA089202\",\n
+        \               \"ANDA090035\"\n              ],\n              \"rxcui\":
+        [\n                \"310410\",\n                \"2707361\",\n                \"2733998\",\n
+        \               \"237786\"\n              ]\n            }\n          }\n
+        \       ]\n      }\n    }\n  ]\n}"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 12 May 2026 22:25:06 GMT
+      Etag:
+      - W/"c627-ewFuC1cwoDephG/cruvq8KJG8Nc"
+      Link:
+      - <https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22METFORMIN%22&limit=2&skip=0&search_after=0%3D10003642>;
+        rel="next"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Via:
+      - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+      X-Api-Umbrella-Request-Id:
+      - cu3p5jernoracj8bqt6g
+      X-Cache:
+      - MISS
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Vcap-Request-Id:
+      - 6f5df8b1-af82-4002-4fe0-95df3e673871
+      X-Xss-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

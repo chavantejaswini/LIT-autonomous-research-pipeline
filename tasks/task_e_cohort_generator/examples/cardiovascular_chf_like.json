@@ -1,0 +1,41 @@
+{
+  "disease_name": "cardiovascular_chf_like",
+  "subtypes": [
+    { "name": "hf_reduced_ef",       "prevalence": 0.45, "biomarker_profiles": { "ejection_fraction_pct": { "mean": 32.0 } } },
+    { "name": "hf_preserved_ef",     "prevalence": 0.40, "biomarker_profiles": { "ejection_fraction_pct": { "mean": 55.0 } } },
+    { "name": "hf_mid_range_ef",     "prevalence": 0.10, "biomarker_profiles": { "ejection_fraction_pct": { "mean": 43.0 } } },
+    { "name": "acute_decompensated", "prevalence": 0.05, "biomarker_profiles": { "ntprobnp_pg_per_ml": { "mu": 8.0 } } }
+  ],
+  "baseline_features": [
+    "age",
+    "bmi",
+    "systolic_bp_mmhg",
+    "diastolic_bp_mmhg",
+    "ejection_fraction_pct",
+    "ntprobnp_pg_per_ml",
+    "egfr_ml_min_1_73",
+    "diabetes",
+    "hypertension",
+    "sex"
+  ],
+  "baseline_distributions": {
+    "age":                   { "type": "normal",    "mean": 68.0, "std": 11.0 },
+    "bmi":                   { "type": "normal",    "mean": 29.5, "std": 5.2 },
+    "systolic_bp_mmhg":      { "type": "normal",    "mean": 134.0, "std": 18.0 },
+    "diastolic_bp_mmhg":     { "type": "normal",    "mean": 78.0,  "std": 12.0 },
+    "ejection_fraction_pct": { "type": "normal",    "mean": 42.0,  "std": 12.0 },
+    "ntprobnp_pg_per_ml":    { "type": "lognormal", "mu": 6.5,     "sigma": 0.9, "missingness": { "rate": 0.15, "mechanism": "mar", "depends_on": "age" } },
+    "egfr_ml_min_1_73":      { "type": "normal",    "mean": 65.0,  "std": 22.0, "missingness": { "rate": 0.05, "mechanism": "mcar" } },
+    "diabetes":              { "type": "binary",    "p": 0.42 },
+    "hypertension":          { "type": "binary",    "p": 0.68 },
+    "sex":                   { "type": "binary",    "p": 0.55 }
+  },
+  "feature_correlations": [
+    { "feature_a": "age",                "feature_b": "egfr_ml_min_1_73",       "pearson_r": -0.40 },
+    { "feature_a": "systolic_bp_mmhg",   "feature_b": "diastolic_bp_mmhg",      "pearson_r":  0.55 },
+    { "feature_a": "ejection_fraction_pct","feature_b": "ntprobnp_pg_per_ml",   "pearson_r": -0.40 },
+    { "feature_a": "bmi",                "feature_b": "systolic_bp_mmhg",       "pearson_r":  0.25 },
+    { "feature_a": "age",                "feature_b": "systolic_bp_mmhg",       "pearson_r":  0.25 },
+    { "feature_a": "egfr_ml_min_1_73",   "feature_b": "ntprobnp_pg_per_ml",     "pearson_r": -0.30 }
+  ]
+}

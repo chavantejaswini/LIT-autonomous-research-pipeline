@@ -1,0 +1,425 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=2&query.term=rapamycin+healthspan
+  response:
+    body:
+      string: "{\"studies\":[\n{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT07475546\",\"orgStudyIdInfo\":{\"id\":\"ALRx011\"},\"organization\":{\"fullName\":\"AgelessRx\",\"class\":\"INDUSTRY\"},\"briefTitle\":\"Combination
+        Gerotherapeutic Interventions for Healthspan Improvement\",\"officialTitle\":\"A
+        Pilot Randomized Controlled Study of Combinatorial Gerotherapeutics for Healthspan
+        Improvement\"},\"statusModule\":{\"statusVerifiedDate\":\"2026-03\",\"overallStatus\":\"ACTIVE_NOT_RECRUITING\",\"expandedAccessInfo\":{\"hasExpandedAccess\":false},\"startDateStruct\":{\"date\":\"2025-07-23\",\"type\":\"ACTUAL\"},\"primaryCompletionDateStruct\":{\"date\":\"2026-04\",\"type\":\"ESTIMATED\"},\"completionDateStruct\":{\"date\":\"2026-04\",\"type\":\"ESTIMATED\"},\"studyFirstSubmitDate\":\"2026-02-02\",\"studyFirstSubmitQcDate\":\"2026-03-11\",\"studyFirstPostDateStruct\":{\"date\":\"2026-03-16\",\"type\":\"ACTUAL\"},\"lastUpdateSubmitDate\":\"2026-03-11\",\"lastUpdatePostDateStruct\":{\"date\":\"2026-03-16\",\"type\":\"ACTUAL\"}},\"sponsorCollaboratorsModule\":{\"responsibleParty\":{\"type\":\"SPONSOR\"},\"leadSponsor\":{\"name\":\"AgelessRx\",\"class\":\"INDUSTRY\"}},\"oversightModule\":{\"oversightHasDmc\":false,\"isFdaRegulatedDrug\":true,\"isFdaRegulatedDevice\":false,\"isUsExport\":false},\"descriptionModule\":{\"briefSummary\":\"This
+        study is a 90-day interventional, randomized, controlled pilot trial exploring
+        multi-modal gerotherapies and their impact on longevity-related outcomes.
+        In this proof-of-concept phase, a small sample size of up to 30 subjects (10
+        subjects in each arm) will be randomized into one of the three arms: 1) Control,
+        2) Multi-therapy (B12, Naltrexone, Metformin, and NAD+), or 4) Comprehensive
+        Therapy (Rapamycin, Naltrexone, Metformin, B12, NAD+, GSH, and Infinite Supplement).\",\"detailedDescription\":\"The
+        two main study objectives are 1) To evaluate the impact of different combinations
+        of gerotherapeutics on measures of muscle, cognitive, and immune function,
+        \\\\& 2) To assess the impact of the combinatorial gerotherapeutics on sleep
+        measures, perceived quality of life, and longevity biomarkers. Potential subjects
+        will be recruited utilizing email and social media-based methods. They will
+        be screened for eligibility and enrolled in the study upon obtaining informed
+        consent. All groups will complete DEXA scans, V02 Max tests, Creyos cognitive
+        assessments, Edifice Health's iAge tests, iollo at-home blood testing kits,
+        routine blood-work, and the following standardized survey questionnaires:
+        ISQ (Immune Status Questionnaire), SF-36 (Quality of Life), RAPA (Rapid Assessment
+        of Physical Activity), and SQS (Sleep Quality Survey). Subjects will set up
+        Oura data-tracking for health biometric data with study staff assistance.
+        Intervention group participants will also receive a guided meditation program
+        and structured exercise program to follow throughout the study. In contrast,
+        participants in the control group will engage in a standard exercise regimen
+        (150 minutes per week) and listen to a neutral podcast designed to control
+        for time and attention.\\n\\nParticipants will be evaluated at baseline and
+        study end for measures of muscle function (by DEXA scan of muscle mass and
+        the VO2 max test to measure endurance capacity using a formal test and/or
+        Oura ring estimate), cognitive function (by Creyos cognitive tests via web
+        browser), immune function (by iAge and CD4+ : CD8+ ratio/lymphocyte : neutrophil
+        ratio with Immune Status Questionnaire (ISQ) supplementation), SF-36 Quality
+        of Life (SF-36 QoL) survey scores, PhenoAge (from blood biomarkers obtained
+        from routine safety labs, detailed below), activity levels (RAPA questionnaire,
+        Oura ring), metabolic health measures from routine and at-home blood tests,
+        sleep improvements evaluated through Oura wearable device sleep quality and
+        quantity as well as the Sleep Quality Survey (SQS), as well as other health
+        indicators from Oura wearable data between baseline and study end. To ensure
+        robustness of outcome measures, two measurements of each item 1 week apart
+        will be used at baseline and again at study end for all measures except for
+        DEXA scan, V02 max formal test and Oura ring estimate, iAge and iollo kits,
+        which will be used once at the beginning and once at the end of the study.\"},\"conditionsModule\":{\"conditions\":[\"Healthspan
+        Improvement\",\"Aging\",\"Longevity\"],\"keywords\":[\"Gerotherapeutics\",\"Rapamycin\",\"Naltrexone\",\"Metformin\",\"NAD+\",\"GSH\",\"B12\"]},\"designModule\":{\"studyType\":\"INTERVENTIONAL\",\"phases\":[\"PHASE3\"],\"designInfo\":{\"allocation\":\"RANDOMIZED\",\"interventionModel\":\"PARALLEL\",\"primaryPurpose\":\"TREATMENT\",\"maskingInfo\":{\"masking\":\"NONE\"}},\"enrollmentInfo\":{\"count\":30,\"type\":\"ESTIMATED\"}},\"armsInterventionsModule\":{\"armGroups\":[{\"label\":\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\",\"type\":\"EXPERIMENTAL\",\"description\":\"In
+        intervention month one, participants naive to all medications will be titrated
+        on to low maintenance doses of each. NAD+ will be taken as a nasal spray of
+        30mg/day; LDN, will start at 1.5mg once daily and titrate up each week to
+        4.5mg daily; B12, take 1 cap per day (100mcg); Metformin will be taken 500mg
+        daily. They will then remain on the maintenance doses of the combination therapy
+        for the next 60 days.\",\"interventionNames\":[\"Drug: Naltrexone\",\"Drug:
+        Metformin\",\"Drug: NAD+\",\"Dietary Supplement: B12\",\"Behavioral: Intervention:
+        Guided Meditation Program\",\"Behavioral: Intervention: Structured Exercise
+        Program\"]},{\"label\":\"Comprehensive Therapy: LDR, LDN, B12, metformin,
+        NAD+, GSH, and Infinite\",\"type\":\"EXPERIMENTAL\",\"description\":\"In intervention
+        month one, participants naive to all medications will be titrated on to low
+        maintenance doses of each. LDR will start at 2mg once per week and titrate
+        up weekly to 6mg once per week; LDN, will start at 1.5mg once daily and titrate
+        up each week to 4.5mg daily; B12, take 1 cap per day (100mcg); Metformin will
+        be taken 500mg daily; NAD+ will be taken as a nasal spray of 30mg/day; GSH
+        will be taken as a topical patch for 4 hrs, once per week; Infinite supplement
+        will be taken once daily. They will then remain on the maintenance doses of
+        the combination therapy for the next 60 days.\",\"interventionNames\":[\"Drug:
+        Rapamycin\",\"Drug: Naltrexone\",\"Drug: Metformin\",\"Drug: NAD+\",\"Drug:
+        GSH\",\"Dietary Supplement: Infinite Supplement\",\"Dietary Supplement: B12\",\"Behavioral:
+        Intervention: Guided Meditation Program\",\"Behavioral: Intervention: Structured
+        Exercise Program\"]},{\"label\":\"Placebo\",\"type\":\"PLACEBO_COMPARATOR\",\"description\":\"In
+        the control cohort, participants will take Vitamin C (1x/day) and Vitamin
+        E (1x/week) as placebo agents.\",\"interventionNames\":[\"Drug: Placebo/control\",\"Behavioral:
+        Control: Podcast Listening Activity\",\"Behavioral: Control: Standard Exercise
+        Regimen\"]}],\"interventions\":[{\"type\":\"DRUG\",\"name\":\"Rapamycin\",\"description\":\"In
+        the comprehensive therapy group, participants will start LDR at 2mg once per
+        week and titrate up weekly to 6mg once per week.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\"],\"otherNames\":[\"sirolimus\",\"low-dose
+        rapamycin (LDR)\"]},{\"type\":\"DRUG\",\"name\":\"Naltrexone\",\"description\":\"In
+        both intervention groups, participants will start LDN at 1.5mg once daily
+        and titrate up each week to 4.5mg daily.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\",\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\"],\"otherNames\":[\"low-dose naltrexone (LDN)\"]},{\"type\":\"DRUG\",\"name\":\"Metformin\",\"description\":\"In
+        both intervention groups, participants will take Metformin at 500mg daily.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\",\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\"]},{\"type\":\"DRUG\",\"name\":\"NAD+\",\"description\":\"In
+        both intervention groups, NAD+ will be taken as a nasal spray of 30mg/day.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\",\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\"],\"otherNames\":[\"nicotinamide adenine dinucleotide
+        (NAD+)\"]},{\"type\":\"DRUG\",\"name\":\"GSH\",\"description\":\"In the comprehensive
+        therapy group, GSH will be taken as a topical patch for 4 hrs, once per week.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\"],\"otherNames\":[\"Glutathione\"]},{\"type\":\"DIETARY_SUPPLEMENT\",\"name\":\"Infinite
+        Supplement\",\"description\":\"Participants in the comprehensive therapy group
+        will take the Infinite supplement once daily. The Infinite supplement is a
+        proprietary blend of seven putative geroprotective compounds implicated in
+        enhancing cellular function critical for managing cellular damage accumulation
+        prevention of age-related decline (including Alpha ketoglutarate, Quercetin,
+        Glucosamine, Carnosine, Pterostilbene, Astaxanthin, and Curcumin)\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\"]},{\"type\":\"DRUG\",\"name\":\"Placebo/control\",\"description\":\"In
+        the control cohort, participants will take Vitamin C (1x/day) and Vitamin
+        E (1x/week) as placebo agents.\",\"armGroupLabels\":[\"Placebo\"]},{\"type\":\"DIETARY_SUPPLEMENT\",\"name\":\"B12\",\"description\":\"In
+        both intervention groups, participants will take vitamin B12 once daily.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\",\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\"],\"otherNames\":[\"Methylcobalamin\"]},{\"type\":\"BEHAVIORAL\",\"name\":\"Intervention:
+        Guided Meditation Program\",\"description\":\"Intervention group participants
+        will follow a daily, app-based meditation program for 20 minutes a day.\",\"armGroupLabels\":[\"Comprehensive
+        Therapy: LDR, LDN, B12, metformin, NAD+, GSH, and Infinite\",\"Multi-Therapy:
+        NAD+, LDN, B12, and metformin\"]},{\"type\":\"BEHAVIORAL\",\"name\":\"Control:
+        Podcast Listening Activity\",\"description\":\"Control participants will listen
+        to a neutral podcast for 20 minutes a day designed to control for time and
+        attention.\",\"armGroupLabels\":[\"Placebo\"]},{\"type\":\"BEHAVIORAL\",\"name\":\"Control:
+        Standard Exercise Regimen\",\"description\":\"Control group participants will
+        engage in a standard exercise regimen (150 minutes of aerobic activity such
+        as walking per week).\",\"armGroupLabels\":[\"Placebo\"]},{\"type\":\"BEHAVIORAL\",\"name\":\"Intervention:
+        Structured Exercise Program\",\"description\":\"Intervention group participants
+        will follow a structured daily exercise program including resistance training
+        and a recommendation for 150 minutes of aerobic activity (e.g., walking) per
+        week.\",\"armGroupLabels\":[\"Comprehensive Therapy: LDR, LDN, B12, metformin,
+        NAD+, GSH, and Infinite\",\"Multi-Therapy: NAD+, LDN, B12, and metformin\"]}]},\"outcomesModule\":{\"primaryOutcomes\":[{\"measure\":\"Change
+        in cardiorespiratory fitness measured by maximal oxygen uptake (VO\u2082 max)\",\"description\":\"Maximal
+        oxygen uptake (VO\u2082 max) will be assessed using standardized cardiopulmonary
+        exercise testing. This assessment will be conducted once at baseline and once
+        at the 3-month follow-up. The outcome will be the change in VO\u2082 max from
+        baseline to 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        in cognitive performance measured by Creyos Cognitive Test composite score\",\"description\":\"Cognitive
+        performance will be assessed using the Creyos online cognitive assessment
+        platform. Assessments will be conducted twice at baseline and twice during
+        the final study period, with measurements occurring at least 7 days apart.
+        Scores from the two assessments at each timepoint will be averaged to determine
+        the baseline and endpoint values. The outcome will be the change in the overall
+        composite cognitive performance score from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change in systemic chronic inflammation measured
+        by iAge index score\",\"description\":\"Immune function will be assessed via
+        systemic chronic inflammation using the iAge Index Score derived from blood
+        biomarkers. This assessment will be conducted once at baseline and once at
+        the 3-month follow-up. The outcome will be the change in iAge index score
+        from baseline to 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        in lean body mass measured by dual-energy X-ray absorptiometry (DEXA)\",\"description\":\"Lean
+        body mass will be assessed using dual-energy X-ray absorptiometry (DEXA).
+        This assessment will be conducted once at baseline and once at the 3-month
+        follow-up. The outcome will be the change in total lean body mass from baseline
+        to 3 months.\",\"timeFrame\":\"3 months\"}],\"secondaryOutcomes\":[{\"measure\":\"Change
+        in total sleep time measured using Oura wearable device\",\"description\":\"Total
+        sleep time will be assessed using sleep data collected from the Oura Ring
+        wearable device. Total sleep time represents the total duration of sleep obtained
+        during the primary sleep period each night. Total sleep time will be measured
+        twice at baseline and twice during the final study period, with measurements
+        occurring at least 7 days apart. Values from each assessment period will be
+        averaged to determine the baseline and 3-month outcome values. The outcome
+        will be the change in average nightly total sleep time from baseline to 3
+        months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change in health-related
+        quality of life measured by the Short Form Health Survey (SF-36)\",\"description\":\"Quality
+        of life will be assessed using the 36-Item Short Form Health Survey (SF-36).
+        Scores range from 0 to 100, with higher scores indicating better health-related
+        quality of life. Assessments will be conducted twice at baseline and twice
+        at the 3-month follow-up, with measurements occurring at least 7 days apart.
+        Values from the two assessments at each timepoint will be averaged. The outcome
+        will be the change in overall SF-36 score from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change in biological age estimated from blood-based
+        biomarker panels\",\"description\":\"Biological age will be estimated using
+        biomarker panels derived from the iollo home testing kit. his assessment will
+        be conducted once at baseline and once at the 3-month follow-up. The outcome
+        will be the change in estimated biological age from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change in sleep quality measured by the Sleep Quality
+        Scale (SQS)\",\"description\":\"Sleep quality will be assessed using the Sleep
+        Quality Scale (SQS), a validated self-report instrument ranging from 0 to
+        84, where higher scores indicate worse sleep quality. Assessments will be
+        conducted twice at baseline and twice at the 3-month follow-up, with measurements
+        occurring at least 7 days apart. Values from the two assessments at each timepoint
+        will be averaged. The outcome will be the change in overall sleep score from
+        baseline to 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        in physical activity measured by the Rapid Assessment of Physical Activity
+        (RAPA) questionnaire\",\"description\":\"Physical activity will be assessed
+        using the Rapid Assessment of Physical Activity (RAPA) questionnaire. Scores
+        range from 1 to 7, with higher scores indicating greater levels of physical
+        activity. Assessments will be conducted twice at baseline and twice at the
+        3-month follow-up, with measurements occurring at least 7 days apart. Values
+        from the two assessments at each timepoint will be averaged. The outcome will
+        be the change in physical activity score from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change in self-reported immune function measured
+        by the Immune Status Questionnaire (ISQ)\",\"description\":\"Self-reported
+        immune function will be assessed using the Immune Status Questionnaire (ISQ),
+        a validated self-report instrument that evaluates the frequency of immune-related
+        symptoms (e.g., colds, fever, cough, and other infection-related complaints).
+        The ISQ produces a total score ranging from 0 to 10, with higher scores indicating
+        better perceived immune functioning. Assessments will be conducted twice at
+        baseline and twice at the 3-month follow-up, with measurements occurring at
+        least 7 days apart. Values from the two assessments at each timepoint will
+        be averaged. The outcome will be the change in ISQ total score from baseline
+        to 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change from baseline
+        to 3 months in hemoglobin A1c\",\"description\":\"Hemoglobin A1c (HbA1c) will
+        be measured from venous blood samples collected during routine laboratory
+        testing. HbA1c reflects average blood glucose levels over approximately the
+        prior 2-3 months. Blood samples will be collected twice at baseline and twice
+        during the final study period with assessments occurring at least 7 days apart.
+        Values from each timepoint will be averaged.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        from baseline to 3 months in fasting insulin concentration\",\"description\":\"Fasting
+        insulin will be measured from venous blood samples collected during routine
+        laboratory testing. Blood samples will be collected twice at baseline and
+        twice during the final study period with assessments occurring at least 7
+        days apart. Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change from baseline to 3 months in high-sensitivity
+        C-reactive protein (hs-CRP)\",\"description\":\"High-sensitivity C-reactive
+        protein (hs-CRP) will be measured from venous blood samples as a marker of
+        systemic inflammation. Blood samples will be collected twice at baseline and
+        twice during the final study period with assessments occurring at least 7
+        days apart. Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change from baseline to 3 months in low-density lipoprotein
+        cholesterol (LDL-C)\",\"description\":\"Low-density lipoprotein cholesterol
+        will be measured from fasting venous blood samples as part of a lipid panel.
+        Blood samples will be collected twice at baseline and twice during the final
+        study period with assessments occurring at least 7 days apart. Measurements
+        from each timepoint will be averaged.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        from baseline to 3 months in high-density lipoprotein cholesterol (HDL-C)\",\"description\":\"High-density
+        lipoprotein cholesterol will be measured from fasting venous blood samples
+        as part of a lipid panel. Blood samples will be collected twice at baseline
+        and twice during the final study period with assessments occurring at least
+        7 days apart. Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change from baseline to 3 months in fasting triglyceride
+        levels\",\"description\":\"Triglycerides will be measured from fasting venous
+        blood samples as part of a lipid panel. Blood samples will be collected twice
+        at baseline and twice during the final study period with assessments occurring
+        at least 7 days apart. Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change from baseline to 3 months in fasting plasma
+        glucose\",\"description\":\"Fasting glucose will be measured from venous blood
+        samples collected during routine laboratory testing. Blood samples will be
+        collected twice at baseline and twice during the final study period with assessments
+        occurring at least 7 days apart. Measurements from each timepoint will be
+        averaged.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change from baseline
+        to 3 months in creatinine\",\"description\":\"Creatinine will be measured
+        from venous blood samples as part of a comprehensive metabolic panel to assess
+        kidney function. Blood samples will be collected twice at baseline and twice
+        during the final study period with assessments occurring at least 7 days apart.
+        Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        from baseline to 3 months in white blood cell count\",\"description\":\"White
+        blood cell (WBC) count will be measured from venous blood samples as part
+        of a complete blood count panel. Blood samples will be collected twice at
+        baseline and twice during the final study period with assessments occurring
+        at least 7 days apart. Measurements from each timepoint will be averaged.\",\"timeFrame\":\"3
+        months\"}],\"otherOutcomes\":[{\"measure\":\"Change in resting heart rate
+        measured using wearable device data\",\"description\":\"Resting heart rate
+        (beats per minute) will be measured using wearable device data averaged across
+        a two-week period at baseline and at 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        in physical activity measured by metabolic equivalent of task (MET) minutes
+        using Oura wearable device data\",\"description\":\"Physical activity will
+        be assessed using metabolic equivalent of task (MET) estimates derived from
+        wearable device activity data collected by the Oura Ring. MET minutes represent
+        the intensity and duration of physical activity performed. MET data will be
+        averaged across a two-week period at baseline and at 3 months. The outcome
+        will be the change in average daily MET minutes from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"},{\"measure\":\"Change in physiological stress score measured using
+        Oura wearable device metric\",\"description\":\"Physiological stress will
+        be assessed using the wearable device stress score derived from heart rate
+        variability metrics. Stress data will be averaged across a two-week period
+        at baseline and at 3 months. The outcome will be the change in physiological
+        stress score from baseline to 3 months.\",\"timeFrame\":\"3 months\"},{\"measure\":\"Change
+        in average daily step count measured using Oura wearable device\",\"description\":\"Physical
+        activity will also be assessed using average daily step counts recorded by
+        the Oura wearable device. Daily step count data will be averaged across a
+        two-week period at baseline and at 3 months. The outcome will be the change
+        in average daily step count from baseline to 3 months.\",\"timeFrame\":\"3
+        months\"}]},\"eligibilityModule\":{\"eligibilityCriteria\":\"Inclusion Criteria:\\n\\n*
+        New, existing, or prospective AgelessRx patient\\n* Adults (60-80 years of
+        age)\\n* Any sex\\n* Any ethnicity\\n* Willingness to provide informed consent
+        and complete study assessments/procedures\\n* Willingness to attend virtual
+        meeting check-ins/follow-ups\\n* Willingness and eligibility to take all medications
+        used in this study\\n* Has at-risk indicators for decline on measures of cognitive,
+        immune, and muscle function, as indicated by a combination of BMI of 26-30;
+        SF36 score below the validated central tendency for 2 of: physical function,
+        physical role limitations, energy, pain; final ISQ scores of \\\\<6; individuals
+        that report brain fog or difficulty with mental clarity; pre-diabetic, or
+        other comorbidities that result in reduced overall health functioning as determined
+        by a physician\\n\\nExclusion Criteria:\\n\\n* Pregnant or breastfeeding individuals\\n*
+        History of severe adverse reactions to study medications\\n* Significant psychiatric
+        illness that may affect participation\\n* Determination of ineligibility for
+        a study medication by AgelessRx medical team\\n* Concurrent participation
+        in other conflicting clinical trials\",\"healthyVolunteers\":true,\"sex\":\"ALL\",\"minimumAge\":\"60
+        Years\",\"maximumAge\":\"80 Years\",\"stdAges\":[\"ADULT\",\"OLDER_ADULT\"]},\"contactsLocationsModule\":{\"overallOfficials\":[{\"name\":\"Jenell
+        Decker, MD\",\"affiliation\":\"AgelessRx\",\"role\":\"PRINCIPAL_INVESTIGATOR\"},{\"name\":\"Stefanie
+        Morgan, PhD\",\"affiliation\":\"AgelessRx\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"locations\":[{\"facility\":\"AgelessRx\",\"city\":\"Ann
+        Arbor\",\"state\":\"Michigan\",\"zip\":\"48104\",\"country\":\"United States\",\"geoPoint\":{\"lat\":42.27756,\"lon\":-83.74088}}]}},\"documentSection\":{\"largeDocumentModule\":{\"largeDocs\":[{\"typeAbbrev\":\"Prot\",\"hasProtocol\":true,\"hasSap\":false,\"hasIcf\":false,\"label\":\"Study
+        Protocol\",\"date\":\"2025-12-03\",\"uploadDate\":\"2026-02-02T12:37\",\"filename\":\"Prot_000.pdf\",\"size\":848298},{\"typeAbbrev\":\"ICF\",\"hasProtocol\":false,\"hasSap\":false,\"hasIcf\":true,\"label\":\"Informed
+        Consent Form\",\"date\":\"2025-12-03\",\"uploadDate\":\"2026-02-02T12:38\",\"filename\":\"ICF_001.pdf\",\"size\":62440}]}},\"derivedSection\":{\"miscInfoModule\":{\"versionHolder\":\"2026-05-12\"},\"interventionBrowseModule\":{\"meshes\":[{\"id\":\"D020123\",\"term\":\"Sirolimus\"},{\"id\":\"D009271\",\"term\":\"Naltrexone\"},{\"id\":\"D008687\",\"term\":\"Metformin\"},{\"id\":\"D009243\",\"term\":\"NAD\"},{\"id\":\"D005978\",\"term\":\"Glutathione\"},{\"id\":\"D014805\",\"term\":\"Vitamin
+        B 12\"},{\"id\":\"C019476\",\"term\":\"mecobalamin\"}],\"ancestors\":[{\"id\":\"D018942\",\"term\":\"Macrolides\"},{\"id\":\"D007783\",\"term\":\"Lactones\"},{\"id\":\"D009930\",\"term\":\"Organic
+        Chemicals\"},{\"id\":\"D009270\",\"term\":\"Naloxone\"},{\"id\":\"D009019\",\"term\":\"Morphinans\"},{\"id\":\"D053610\",\"term\":\"Opiate
+        Alkaloids\"},{\"id\":\"D000470\",\"term\":\"Alkaloids\"},{\"id\":\"D006571\",\"term\":\"Heterocyclic
+        Compounds\"},{\"id\":\"D006572\",\"term\":\"Heterocyclic Compounds, Bridged-Ring\"},{\"id\":\"D006576\",\"term\":\"Heterocyclic
+        Compounds, 4 or More Rings\"},{\"id\":\"D000072471\",\"term\":\"Heterocyclic
+        Compounds, Fused-Ring\"},{\"id\":\"D010616\",\"term\":\"Phenanthrenes\"},{\"id\":\"D011084\",\"term\":\"Polycyclic
+        Aromatic Hydrocarbons\"},{\"id\":\"D011083\",\"term\":\"Polycyclic Compounds\"},{\"id\":\"D001645\",\"term\":\"Biguanides\"},{\"id\":\"D006146\",\"term\":\"Guanidines\"},{\"id\":\"D000578\",\"term\":\"Amidines\"},{\"id\":\"D000227\",\"term\":\"Adenine
+        Nucleotides\"},{\"id\":\"D011685\",\"term\":\"Purine Nucleotides\"},{\"id\":\"D011687\",\"term\":\"Purines\"},{\"id\":\"D006574\",\"term\":\"Heterocyclic
+        Compounds, 2-Ring\"},{\"id\":\"D003067\",\"term\":\"Coenzymes\"},{\"id\":\"D045762\",\"term\":\"Enzymes
+        and Coenzymes\"},{\"id\":\"D009711\",\"term\":\"Nucleotides\"},{\"id\":\"D009706\",\"term\":\"Nucleic
+        Acids, Nucleotides, and Nucleosides\"},{\"id\":\"D012265\",\"term\":\"Ribonucleotides\"},{\"id\":\"D009842\",\"term\":\"Oligopeptides\"},{\"id\":\"D010455\",\"term\":\"Peptides\"},{\"id\":\"D000602\",\"term\":\"Amino
+        Acids, Peptides, and Proteins\"},{\"id\":\"D045728\",\"term\":\"Corrinoids\"},{\"id\":\"D045725\",\"term\":\"Tetrapyrroles\"},{\"id\":\"D011758\",\"term\":\"Pyrroles\"},{\"id\":\"D001393\",\"term\":\"Azoles\"},{\"id\":\"D006573\",\"term\":\"Heterocyclic
+        Compounds, 1-Ring\"},{\"id\":\"D047028\",\"term\":\"Macrocyclic Compounds\"}]}},\"hasResults\":false},\n{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT04742777\",\"orgStudyIdInfo\":{\"id\":\"HSC20120304H
+        (Addendum)\"},\"secondaryIdInfos\":[{\"id\":\"5P30AG044271-07\",\"type\":\"NIH\",\"link\":\"https://reporter.nih.gov/quickSearch/5P30AG044271-07\"}],\"organization\":{\"fullName\":\"The
+        University of Texas Health Science Center at San Antonio\",\"class\":\"OTHER\"},\"briefTitle\":\"Effect
+        of mTOR Inhibition & Other Metabolism Modulating Interventions on the Elderly
+        [SubStudy Rapa & cMRI to Evaluate Cardiac Function]\",\"officialTitle\":\"Effect
+        of mTOR Inhibition and Other Metabolism Modulating Interventions on the Elderly:
+        Immune, Cognitive, and Functional Consequences ((Substudy E - RAPA cMRI With
+        LGE)\",\"acronym\":\"mTOR\"},\"statusModule\":{\"statusVerifiedDate\":\"2025-10\",\"overallStatus\":\"COMPLETED\",\"expandedAccessInfo\":{\"hasExpandedAccess\":false},\"startDateStruct\":{\"date\":\"2022-02-01\",\"type\":\"ACTUAL\"},\"primaryCompletionDateStruct\":{\"date\":\"2025-09-09\",\"type\":\"ACTUAL\"},\"completionDateStruct\":{\"date\":\"2025-09-09\",\"type\":\"ACTUAL\"},\"studyFirstSubmitDate\":\"2021-02-01\",\"studyFirstSubmitQcDate\":\"2021-02-03\",\"studyFirstPostDateStruct\":{\"date\":\"2021-02-08\",\"type\":\"ACTUAL\"},\"lastUpdateSubmitDate\":\"2025-10-06\",\"lastUpdatePostDateStruct\":{\"date\":\"2025-10-08\",\"type\":\"ACTUAL\"}},\"sponsorCollaboratorsModule\":{\"responsibleParty\":{\"type\":\"SPONSOR\"},\"leadSponsor\":{\"name\":\"The
+        University of Texas Health Science Center at San Antonio\",\"class\":\"OTHER\"},\"collaborators\":[{\"name\":\"The
+        Claude D. Pepper Older Americans Independence Centers\",\"class\":\"OTHER\"},{\"name\":\"National
+        Institute on Aging (NIA)\",\"class\":\"NIH\"}]},\"oversightModule\":{\"oversightHasDmc\":true,\"isFdaRegulatedDrug\":true,\"isFdaRegulatedDevice\":false,\"isUsExport\":true},\"descriptionModule\":{\"briefSummary\":\"The
+        ability to mount an effective immune response declines with age, leaving the
+        elderly increasingly susceptible to infectious diseases and cancer. Rapamycin,
+        an FDA approved drug to prevent transplant rejection, increases the lifespan
+        and healthspan of mice and ameliorates age-related declines in immune responsiveness,
+        cancer survival, and cognition in laboratory animals. Investigators are conducting
+        a translational trial to test whether rapamycin also improves life functions
+        in humans focusing on elderly persons (aged 70-95).\\n\\nSubstudy E will evaluate
+        the Rapamycin and Cardiac Function.\",\"detailedDescription\":\"The main study
+        has completed and results are reported (NCT02874924)\\n\\nPurpose of Sub-study
+        E - Rapamycin and cMRI to evaluate cardiac function:\\n\\nThe over-arching
+        hypothesis is that RAPA treatment will effect simultaneous improvement in
+        parameters known to be negatively impacted by aging. For example, systemic
+        inflammation is higher in older individuals and contributes to the development
+        of age-related pathologies affecting both the heart and the vasculature. In
+        particular, evidence indicates that aging-associated alterations in inflammatory
+        and pro-fibrotic pathways are critically involved in the etiology of age-related
+        declines. The study team hypothesize that mTOR antagonism with RAPA will improve
+        detrimental age-related pathologies affecting the heart in elderly humans.\"},\"conditionsModule\":{\"conditions\":[\"Aging\"],\"keywords\":[\"geriatrics\"]},\"designModule\":{\"studyType\":\"INTERVENTIONAL\",\"phases\":[\"PHASE2\"],\"designInfo\":{\"allocation\":\"NA\",\"interventionModel\":\"SINGLE_GROUP\",\"interventionModelDescription\":\"Rapamycin
+        1mg for 8 weeks\",\"primaryPurpose\":\"BASIC_SCIENCE\",\"maskingInfo\":{\"masking\":\"NONE\"}},\"enrollmentInfo\":{\"count\":20,\"type\":\"ACTUAL\"}},\"armsInterventionsModule\":{\"armGroups\":[{\"label\":\"Rapamycin\",\"type\":\"EXPERIMENTAL\",\"description\":\"Rapamycin
+        1mg for 8 weeks\",\"interventionNames\":[\"Drug: rapamycin\"]}],\"interventions\":[{\"type\":\"DRUG\",\"name\":\"rapamycin\",\"description\":\"Taken
+        orally 1mg daily for 8 weeks\",\"armGroupLabels\":[\"Rapamycin\"],\"otherNames\":[\"Sirolimus\"]}]},\"outcomesModule\":{\"primaryOutcomes\":[{\"measure\":\"Systolic
+        Function\",\"description\":\"Test whether RAPA improves systolic function
+        in elderly subjects. Cardiac MRI will be measured before and after 8 weeks
+        of RAPA administration using 3T MRI. From collected MRI data, the study team
+        will quantify change in systolic volumes.\",\"timeFrame\":\"Baseline to 8
+        weeks\"},{\"measure\":\"Diastolic Function\",\"description\":\"Test whether
+        RAPA improves diastolic function in elderly subjects.Cardiac MRI will be measured
+        before and after 8 weeks of RAPA administration using 3T MRI. From collected
+        MRI data, the study team will quantify change in diastolic volumes.\",\"timeFrame\":\"Baseline
+        to 8 weeks\"},{\"measure\":\"Aortic Cross-Sectional Area\",\"description\":\"Test
+        whether RAPA increases aortic compliance in elderly subjects. Aortic MRI will
+        be measured before and after 8 weeks of RAPA using 3T MRI. The study team
+        will quantify distal descending aortic cross-sectional area to assess aortic
+        function/compliance effects.\",\"timeFrame\":\"Baseline to 8 weeks\"},{\"measure\":\"Aortic
+        Distensibility\",\"description\":\"Test whether RAPA increases aortic compliance
+        in elderly subjects. Aortic MRI will be measured before and after 8 weeks
+        of RAPA using 3T MRI. The study team will quantify change in distal descending
+        aortic distensibility to assess aortic function/compliance effects.\",\"timeFrame\":\"Baseline
+        to 8 weeks\"}]},\"eligibilityModule\":{\"eligibilityCriteria\":\"Inclusion
+        Criteria:\\n\\n* men and women 70-95 years of age.\\n* Subjects will be in
+        good general health with all chronic diseases (hypertension, coronary artery
+        disease, etc.) clinically stable. Selected subjects will be in good health
+        (Per the World Health Organization good health will be defined as complete
+        physical, mental, and social well-being and not merely the absence of disease
+        or infirmity.\\n* For our purposes all diseases or infirmities will be clinically
+        stable whether managed by medications or not.\\n* All ethnicities will be
+        included.\\n* For cardiac and brain imaging by MRI, a pre-MRI screening questionnaire
+        will be used to assess MRI safety and neurological health.\\n\\nExclusion
+        Criteria:\\n\\n* Diabetes, (with A1c \u22656.5 or if treated with medication
+        affecting glucose homeostasis History of skin ulcers or poor wound healing,\\n*
+        Smoking,\\n* Liver disease,\\n* Anti-coagulation,\\n* Treatment with drugs
+        known to affect cytochrome P450 3A (diltiazem, erythromycin, etc) due to its
+        role in RAPA metabolism,\\n* Treatment (\\\\>30days of therapy or long term)
+        with a systemic immunosuppressant (prednisone, etc.) within the last year,\\n*
+        History of recent (within 6 months) Myocardial Infarction or active Coronary
+        Disease,\\n* Patients with history of recent (within 6 months) intestinal
+        disorders,\\n* Exclusion criteria for MRI scan: known claustrophobia, metal
+        implants in soft tissue of the body including pacemakers, aneurysm clips,
+        ferrous metal fragments not anchored to bone (bullets, BBs, shrapnel, metal
+        shavings), implanted medication pumps, and oral-facial metal appliances that
+        are permanently secured but may result in low image quality. Participants
+        may also be excluded for history of severe head trauma, brain injury, brain
+        surgery, inflammation of the brain, or history of seizures.\\n* Positive COVID19
+        test.\",\"healthyVolunteers\":true,\"sex\":\"ALL\",\"minimumAge\":\"70 Years\",\"maximumAge\":\"95
+        Years\",\"stdAges\":[\"OLDER_ADULT\"]},\"contactsLocationsModule\":{\"overallOfficials\":[{\"name\":\"Dean
+        L Kellogg, Jr., MD PhD\",\"affiliation\":\"The University of Texas Health
+        Science Center at San Antonio\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"locations\":[{\"facility\":\"Audie
+        L. Murphy Memorial Veterans Hospital\",\"city\":\"San Antonio\",\"state\":\"Texas\",\"zip\":\"78229\",\"country\":\"United
+        States\",\"geoPoint\":{\"lat\":29.42412,\"lon\":-98.49363}},{\"facility\":\"The
+        University of Texas Health Science Center at San Antonio\",\"city\":\"San
+        Antonio\",\"state\":\"Texas\",\"zip\":\"78229\",\"country\":\"United States\",\"geoPoint\":{\"lat\":29.42412,\"lon\":-98.49363}}]},\"ipdSharingStatementModule\":{\"ipdSharing\":\"YES\",\"description\":\"All
+        IPD that underlie results in a publication will be shared.\",\"infoTypes\":[\"STUDY_PROTOCOL\",\"ICF\"],\"timeFrame\":\"Data
+        will become available at study completion at the time of journal publication.\"}},\"derivedSection\":{\"miscInfoModule\":{\"versionHolder\":\"2026-05-12\"},\"interventionBrowseModule\":{\"meshes\":[{\"id\":\"D020123\",\"term\":\"Sirolimus\"}],\"ancestors\":[{\"id\":\"D018942\",\"term\":\"Macrolides\"},{\"id\":\"D007783\",\"term\":\"Lactones\"},{\"id\":\"D009930\",\"term\":\"Organic
+        Chemicals\"}]}},\"hasResults\":false}\n],\"nextPageToken\":\"ZVJj7o2Elu8o3lp1Dtysq-numpOQJJxsZ_aj1fQW\"}"
+    headers:
+      Alt-Svc:
+      - clear
+      Date:
+      - Tue, 12 May 2026 22:25:05 GMT
+      Server:
+      - istio-envoy
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 google
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-UA-Compatible:
+      - IE=Edge
+      X-XSS-Protection:
+      - 1; mode=block
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      etag:
+      - '"1/0.34.1/mp2egx6w"'
+      set-cookie:
+      - ncbi_sid=DB361C70EC69D588_74E8SID; Max-Age=31536000; Domain=clinicaltrials.gov;
+        Path=/; $x-enc=URI_ENCODING
+      x-envoy-upstream-service-time:
+      - '13'
+    status:
+      code: 200
+      message: OK
+version: 1

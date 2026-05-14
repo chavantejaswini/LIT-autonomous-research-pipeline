@@ -1,0 +1,42 @@
+{
+  "disease_name": "neurodegenerative_ad_like",
+  "subtypes": [
+    { "name": "amyloid_dominant",    "prevalence": 0.35, "biomarker_profiles": { "csf_abeta42_pg_per_ml": { "mu": 6.0 } } },
+    { "name": "tau_dominant",        "prevalence": 0.25, "biomarker_profiles": { "csf_ptau181_pg_per_ml": { "mu": 4.2 } } },
+    { "name": "vascular_mixed",      "prevalence": 0.20, "biomarker_profiles": { "hippocampal_volume_ml": { "mean": 2.7 } } },
+    { "name": "limbic_predominant",  "prevalence": 0.15, "biomarker_profiles": { "mmse_score": { "mean": 21.0 } } },
+    { "name": "preclinical",         "prevalence": 0.05, "biomarker_profiles": { "mmse_score": { "mean": 28.0 } } }
+  ],
+  "baseline_features": [
+    "age",
+    "education_years",
+    "mmse_score",
+    "hippocampal_volume_ml",
+    "csf_abeta42_pg_per_ml",
+    "csf_ptau181_pg_per_ml",
+    "apoe4_carrier",
+    "sex",
+    "family_history",
+    "race_ethnicity"
+  ],
+  "baseline_distributions": {
+    "age":                   { "type": "normal",    "mean": 73.0, "std": 7.5 },
+    "education_years":       { "type": "normal",    "mean": 14.0, "std": 3.5 },
+    "mmse_score":            { "type": "normal",    "mean": 23.0, "std": 4.5 },
+    "hippocampal_volume_ml": { "type": "normal",    "mean": 3.0,  "std": 0.6 },
+    "csf_abeta42_pg_per_ml": { "type": "lognormal", "mu": 6.4,    "sigma": 0.35 },
+    "csf_ptau181_pg_per_ml": { "type": "lognormal", "mu": 3.7,    "sigma": 0.40 },
+    "apoe4_carrier":         { "type": "binary",    "p": 0.32 },
+    "sex":                   { "type": "binary",    "p": 0.58 },
+    "family_history":        { "type": "binary",    "p": 0.30 },
+    "race_ethnicity":        { "type": "categorical","categories": ["non_hispanic_white","non_hispanic_black","hispanic","asian","other"], "probabilities": [0.62, 0.12, 0.16, 0.07, 0.03] }
+  },
+  "feature_correlations": [
+    { "feature_a": "age",                 "feature_b": "hippocampal_volume_ml",   "pearson_r": -0.40 },
+    { "feature_a": "age",                 "feature_b": "mmse_score",              "pearson_r": -0.30 },
+    { "feature_a": "mmse_score",          "feature_b": "hippocampal_volume_ml",    "pearson_r":  0.45 },
+    { "feature_a": "csf_ptau181_pg_per_ml","feature_b": "csf_abeta42_pg_per_ml",   "pearson_r": -0.50 },
+    { "feature_a": "csf_ptau181_pg_per_ml","feature_b": "hippocampal_volume_ml",   "pearson_r": -0.40 },
+    { "feature_a": "education_years",     "feature_b": "mmse_score",              "pearson_r":  0.25 }
+  ]
+}

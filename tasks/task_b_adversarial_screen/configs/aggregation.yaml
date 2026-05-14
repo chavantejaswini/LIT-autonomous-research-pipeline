@@ -1,0 +1,43 @@
+# Verdict aggregation rule. The screener combines per-detector subscores
+# into a weighted aggregate, then maps the aggregate to a verdict using the
+# thresholds below. Any detector with `hard_block: true` short-circuits to
+# BLOCK regardless of aggregate score.
+
+weights:
+  directionality: 0.45
+  classifier: 0.40
+  anomaly: 0.15
+
+# A detector is "triggered" when its score exceeds its individual threshold.
+detector_thresholds:
+  directionality: 0.5
+  classifier: 0.6
+  anomaly: 0.7
+
+# Detectors that immediately escalate to BLOCK when triggered.
+hard_block:
+  - directionality
+
+# Default final verdict thresholds applied to the weighted aggregate score.
+verdict_thresholds:
+  allow_below: 0.35
+  block_above: 0.65
+  # Aggregate scores in [allow_below, block_above] map to REVIEW.
+
+# Optional per-source threshold overrides. The brief's `InputSource`
+# parameter affects strictness: public submissions get tighter thresholds
+# than verified internal researchers. Any keys not specified here fall
+# back to `verdict_thresholds` above.
+source_overrides:
+  public_submission:
+    allow_below: 0.25     # be stricter — narrower allow band
+    block_above: 0.55     # be stricter — wider block band
+  automated_agent:
+    allow_below: 0.30
+    block_above: 0.60
+  external_collaborator:
+    allow_below: 0.30
+    block_above: 0.60
+  internal_researcher:
+    allow_below: 0.40     # be more permissive — wider allow band
+    block_above: 0.75

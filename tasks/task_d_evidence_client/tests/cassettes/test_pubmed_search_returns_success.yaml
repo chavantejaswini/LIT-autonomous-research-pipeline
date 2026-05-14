@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=3&retmode=json&term=CRISPR+aging
+  response:
+    body:
+      string: '{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1356","retmax":"3","retstart":"0","idlist":["42098726","42091876","42091816"],"translationset":[{"from":"CRISPR","to":"\"clustered
+        regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All
+        Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND
+        \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All
+        Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All
+        Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]"},{"from":"aging","to":"\"aging\"[MeSH
+        Terms] OR \"aging\"[All Fields] OR \"ageing\"[All Fields]"}],"querytranslation":"(\"clustered
+        regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All
+        Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND
+        \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All
+        Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All
+        Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]) AND (\"aging\"[MeSH
+        Terms] OR \"aging\"[All Fields] OR \"ageing\"[All Fields])"}}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Alt-Svc:
+      - clear
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 12 May 2026 22:24:42 GMT
+      Ncbi-Phid:
+      - 1D347D37719084F5000046980E3665FE.1.1.m_1
+      Ncbi-Sid:
+      - E98C18113B7C8452_EAEASID
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie:
+      - ncbi_sid=E98C18113B7C8452_EAEASID; domain=.nih.gov; path=/; expires=Wed, 12
+        May 2027 22:24:42 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 google
+      X-Ratelimit-Limit:
+      - '3'
+      X-Ratelimit-Remaining:
+      - '2'
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,13 @@
+{
+  "seeds_run": 100,
+  "n_workloads_per_seed": 50,
+  "all_budgets_respected": true,
+  "all_priority_invariant_held": true,
+  "all_yields_match_resumes": true,
+  "completed_total": 5000,
+  "failed_total": 0,
+  "cancelled_total": 0,
+  "total_yields": 108,
+  "total_resumes": 108,
+  "seed_failures": []
+}

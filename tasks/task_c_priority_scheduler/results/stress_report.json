@@ -1,0 +1,14 @@
+{
+  "completed": 50,
+  "cancelled": 0,
+  "credits_used": 725,
+  "credits_budget": 1521,
+  "credit_budget_respected": true,
+  "total_yields": 1,
+  "total_resumes": 1,
+  "yields_match_resumes": true,
+  "audit_entries": 152,
+  "final_tick": 94,
+  "priority_admission_inversions": 0,
+  "no_priority_inversion": true
+}

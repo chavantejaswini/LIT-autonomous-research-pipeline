@@ -1,0 +1,41 @@
+{
+  "disease_name": "metabolic_t2d_like",
+  "subtypes": [
+    { "name": "insulin_resistant",   "prevalence": 0.40, "biomarker_profiles": { "fasting_insulin_uU_per_ml": { "mu": 3.1 }, "bmi": { "mean": 34.0 } } },
+    { "name": "beta_cell_failure",   "prevalence": 0.25, "biomarker_profiles": { "fasting_glucose_mg_dl": { "mu": 5.3 }, "hba1c_pct": { "mean": 8.4 } } },
+    { "name": "mild_hyperglycemia",  "prevalence": 0.25, "biomarker_profiles": { "hba1c_pct": { "mean": 6.4 } } },
+    { "name": "lean_normoinsulinemic","prevalence": 0.10, "biomarker_profiles": { "bmi": { "mean": 23.5 }, "fasting_insulin_uU_per_ml": { "mu": 2.0 } } }
+  ],
+  "baseline_features": [
+    "age",
+    "bmi",
+    "fasting_glucose_mg_dl",
+    "hba1c_pct",
+    "fasting_insulin_uU_per_ml",
+    "ldl_mg_dl",
+    "hdl_mg_dl",
+    "triglycerides_mg_dl",
+    "sex",
+    "smoking_status"
+  ],
+  "baseline_distributions": {
+    "age":                     { "type": "normal",     "mean": 56.0, "std": 9.0 },
+    "bmi":                     { "type": "normal",     "mean": 31.5, "std": 5.5 },
+    "fasting_glucose_mg_dl":   { "type": "lognormal",  "mu": 4.95, "sigma": 0.18 },
+    "hba1c_pct":               { "type": "normal",     "mean": 7.1, "std": 1.0 },
+    "fasting_insulin_uU_per_ml": { "type": "lognormal","mu": 2.6,  "sigma": 0.45 },
+    "ldl_mg_dl":               { "type": "normal",     "mean": 128.0, "std": 26.0 },
+    "hdl_mg_dl":               { "type": "normal",     "mean": 46.0, "std": 11.0 },
+    "triglycerides_mg_dl":     { "type": "lognormal",  "mu": 5.05, "sigma": 0.45 },
+    "sex":                     { "type": "binary",     "p": 0.52 },
+    "smoking_status":          { "type": "categorical","categories": ["never","former","current"], "probabilities": [0.55, 0.30, 0.15] }
+  },
+  "feature_correlations": [
+    { "feature_a": "bmi",       "feature_b": "fasting_insulin_uU_per_ml", "pearson_r": 0.45 },
+    { "feature_a": "bmi",       "feature_b": "triglycerides_mg_dl",       "pearson_r": 0.32 },
+    { "feature_a": "fasting_glucose_mg_dl", "feature_b": "hba1c_pct",     "pearson_r": 0.70 },
+    { "feature_a": "fasting_insulin_uU_per_ml", "feature_b": "fasting_glucose_mg_dl", "pearson_r": 0.35 },
+    { "feature_a": "ldl_mg_dl", "feature_b": "triglycerides_mg_dl",       "pearson_r": 0.25 },
+    { "feature_a": "hdl_mg_dl", "feature_b": "triglycerides_mg_dl",       "pearson_r": -0.30 }
+  ]
+}

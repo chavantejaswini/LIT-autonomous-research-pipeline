@@ -1,0 +1,15 @@
+# Four priority tiers (lower rank = higher priority).
+# `preemptible_by` lists the tiers that can pre-empt this one.
+tiers:
+  - name: critical
+    rank: 0
+    preemptible_by: []                  # non-preemptible
+  - name: high
+    rank: 1
+    preemptible_by: [critical]          # only critical can pre-empt
+  - name: standard
+    rank: 2
+    preemptible_by: [critical, high]
+  - name: opportunistic
+    rank: 3
+    preemptible_by: [critical, high, standard]

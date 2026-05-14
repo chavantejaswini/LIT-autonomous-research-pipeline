@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prediction_harness"
+version = "0.1.0"
+description = "Prospective simulation harness with pre-registration, immutability, and calibration reporting."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Tejaswini Chavan" }]
+dependencies = [
+    "pydantic>=2.6",
+    "sqlalchemy>=2.0",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[project.scripts]
+prediction-harness = "prediction_harness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

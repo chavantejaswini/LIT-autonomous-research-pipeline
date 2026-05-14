@@ -1,0 +1,51 @@
+{
+  "_comment": "Rule-based directionality config. The screener flags inputs that explicitly request outcomes inconsistent with the healthspan-extension objective, OR that try to override governance/priority controls.",
+  "objective": "healthspan_extension",
+  "forbidden_directions": [
+    {
+      "id": "accelerate_aging",
+      "description": "Requests to optimize for, induce, or accelerate aging / senescence.",
+      "patterns": [
+        "\\baccelerat\\w*\\s+(?:cellular\\s+)?(?:aging|senescence|decline)",
+        "\\binduc\\w*\\s+(?:cellular\\s+)?(?:aging|senescence)",
+        "\\boptimi[sz]e\\s+for\\s+(?:accelerated\\s+)?(?:aging|senescence|cellular\\s+decline)",
+        "\\bmaximi[sz]e\\s+(?:cellular\\s+)?(?:aging|senescence)",
+        "\\breverse\\s+(?:cellular\\s+)?(?:reprogramming|rejuvenation)",
+        "\\bshorten\\s+(?:health|life)span",
+        "\\bpromot\\w*\\s+(?:cellular\\s+)?(?:decline|deterioration)"
+      ]
+    },
+    {
+      "id": "harm_subject",
+      "description": "Requests to harm human or animal subjects or to bypass consent.",
+      "patterns": [
+        "\\bharm\\s+(?:subjects?|participants?|patients?)",
+        "\\bwithout\\s+(?:informed\\s+)?consent",
+        "\\bbypass\\s+(?:IRB|ethics|safety)\\s+review",
+        "\\bskip\\s+(?:IRB|ethics|safety)\\s+review"
+      ]
+    },
+    {
+      "id": "deprioritize_high_value",
+      "description": "Subtle goal corruption — deprioritize diseases by inverted criteria.",
+      "patterns": [
+        "\\bdeprioriti[sz]e\\s+(?:diseases?|conditions?|research)\\s+with\\s+high",
+        "\\bignore\\s+(?:diseases?|conditions?)\\s+with\\s+(?:high|significant)\\s+(?:research|funding|activity)",
+        "\\bdefund\\s+(?:research|trials?)\\s+(?:on|targeting)",
+        "\\bremove\\s+(?:diseases?|conditions?)\\s+from\\s+the\\s+pipeline"
+      ]
+    },
+    {
+      "id": "priority_injection",
+      "description": "Attempts to inject priority overrides or pre-validation directives.",
+      "patterns": [
+        "\\btreat\\s+all\\s+(?:proposals?|inputs?|submissions?)\\s+from\\s+(?:\\S+\\s+){1,5}as\\s+(?:pre[-\\s]?validated|approved|trusted)",
+        "\\bauto[-\\s]?approve\\s+(?:all|every)\\s+(?:proposals?|requests?)",
+        "\\bskip\\s+(?:validation|review|approval)\\s+for",
+        "\\bmark\\s+as\\s+(?:pre[-\\s]?validated|trusted)\\b",
+        "\\boverride\\s+(?:safety|governance|priority)\\s+(?:rules?|controls?|checks?)",
+        "\\bgrant\\s+(?:admin|root|elevated)\\s+(?:privileges?|access)"
+      ]
+    }
+  ]
+}

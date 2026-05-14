@@ -1,0 +1,164 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://string-db.org/api/json/network?caller_identity=lit-test%2F0.1&identifiers=TP53&species=9606
+  response:
+    body:
+      string: '[{"stringId_A": "9606.ENSP00000212015", "stringId_B": "9606.ENSP00000254719",
+        "preferredName_A": "SIRT1", "preferredName_B": "RPA1", "ncbiTaxonId": "9606",
+        "score": 0.412, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.089, "escore":
+        0.317, "dscore": 0, "tscore": 0.13}, {"stringId_A": "9606.ENSP00000212015",
+        "stringId_B": "9606.ENSP00000258149", "preferredName_A": "SIRT1", "preferredName_B":
+        "MDM2", "ncbiTaxonId": "9606", "score": 0.699, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0, "escore": 0.292, "dscore": 0, "tscore": 0.592}, {"stringId_A":
+        "9606.ENSP00000212015", "stringId_B": "9606.ENSP00000262367", "preferredName_A":
+        "SIRT1", "preferredName_B": "CREBBP", "ncbiTaxonId": "9606", "score": 0.754,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.088, "escore": 0.101, "dscore":
+        0, "tscore": 0.724}, {"stringId_A": "9606.ENSP00000212015", "stringId_B":
+        "9606.ENSP00000335153", "preferredName_A": "SIRT1", "preferredName_B": "HSP90AA1",
+        "ncbiTaxonId": "9606", "score": 0.803, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.047, "escore": 0.394, "dscore": 0, "tscore": 0.686}, {"stringId_A":
+        "9606.ENSP00000212015", "stringId_B": "9606.ENSP00000278616", "preferredName_A":
+        "SIRT1", "preferredName_B": "ATM", "ncbiTaxonId": "9606", "score": 0.856,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.049, "escore": 0, "dscore":
+        0, "tscore": 0.855}, {"stringId_A": "9606.ENSP00000212015", "stringId_B":
+        "9606.ENSP00000263253", "preferredName_A": "SIRT1", "preferredName_B": "EP300",
+        "ncbiTaxonId": "9606", "score": 0.972, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.138, "escore": 0.698, "dscore": 0, "tscore": 0.902}, {"stringId_A":
+        "9606.ENSP00000212015", "stringId_B": "9606.ENSP00000269305", "preferredName_A":
+        "SIRT1", "preferredName_B": "TP53", "ncbiTaxonId": "9606", "score": 0.999,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0, "escore": 0.886, "dscore":
+        0.9, "tscore": 0.99}, {"stringId_A": "9606.ENSP00000254719", "stringId_B":
+        "9606.ENSP00000263253", "preferredName_A": "RPA1", "preferredName_B": "EP300",
+        "ncbiTaxonId": "9606", "score": 0.466, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.047, "escore": 0.133, "dscore": 0, "tscore": 0.406}, {"stringId_A":
+        "9606.ENSP00000254719", "stringId_B": "9606.ENSP00000278616", "preferredName_A":
+        "RPA1", "preferredName_B": "ATM", "ncbiTaxonId": "9606", "score": 0.928, "nscore":
+        0, "fscore": 0, "pscore": 0, "ascore": 0.047, "escore": 0.66, "dscore": 0.5,
+        "tscore": 0.611}, {"stringId_A": "9606.ENSP00000254719", "stringId_B": "9606.ENSP00000269305",
+        "preferredName_A": "RPA1", "preferredName_B": "TP53", "ncbiTaxonId": "9606",
+        "score": 0.999, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.117, "escore":
+        0.982, "dscore": 0.4, "tscore": 0.932}, {"stringId_A": "9606.ENSP00000258149",
+        "stringId_B": "9606.ENSP00000262367", "preferredName_A": "MDM2", "preferredName_B":
+        "CREBBP", "ncbiTaxonId": "9606", "score": 0.909, "nscore": 0, "fscore": 0,
+        "pscore": 0, "ascore": 0.122, "escore": 0.625, "dscore": 0, "tscore": 0.746},
+        {"stringId_A": "9606.ENSP00000258149", "stringId_B": "9606.ENSP00000335153",
+        "preferredName_A": "MDM2", "preferredName_B": "HSP90AA1", "ncbiTaxonId": "9606",
+        "score": 0.909, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.049, "escore":
+        0.539, "dscore": 0, "tscore": 0.81}, {"stringId_A": "9606.ENSP00000258149",
+        "stringId_B": "9606.ENSP00000340989", "preferredName_A": "MDM2", "preferredName_B":
+        "SFN", "ncbiTaxonId": "9606", "score": 0.989, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0, "escore": 0.948, "dscore": 0, "tscore": 0.799}, {"stringId_A":
+        "9606.ENSP00000258149", "stringId_B": "9606.ENSP00000278616", "preferredName_A":
+        "MDM2", "preferredName_B": "ATM", "ncbiTaxonId": "9606", "score": 0.995, "nscore":
+        0, "fscore": 0, "pscore": 0, "ascore": 0.092, "escore": 0.621, "dscore": 0.75,
+        "tscore": 0.955}, {"stringId_A": "9606.ENSP00000258149", "stringId_B": "9606.ENSP00000266000",
+        "preferredName_A": "MDM2", "preferredName_B": "DAXX", "ncbiTaxonId": "9606",
+        "score": 0.995, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.047, "escore":
+        0.842, "dscore": 0.5, "tscore": 0.953}, {"stringId_A": "9606.ENSP00000258149",
+        "stringId_B": "9606.ENSP00000263253", "preferredName_A": "MDM2", "preferredName_B":
+        "EP300", "ncbiTaxonId": "9606", "score": 0.999, "nscore": 0, "fscore": 0,
+        "pscore": 0, "ascore": 0.152, "escore": 0.82, "dscore": 0, "tscore": 0.994},
+        {"stringId_A": "9606.ENSP00000258149", "stringId_B": "9606.ENSP00000269305",
+        "preferredName_A": "MDM2", "preferredName_B": "TP53", "ncbiTaxonId": "9606",
+        "score": 0.999, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.116, "escore":
+        0.999, "dscore": 0.9, "tscore": 0.999}, {"stringId_A": "9606.ENSP00000262367",
+        "stringId_B": "9606.ENSP00000335153", "preferredName_A": "CREBBP", "preferredName_B":
+        "HSP90AA1", "ncbiTaxonId": "9606", "score": 0.415, "nscore": 0, "fscore":
+        0.005, "pscore": 0, "ascore": 0.066, "escore": 0, "dscore": 0, "tscore": 0.398},
+        {"stringId_A": "9606.ENSP00000262367", "stringId_B": "9606.ENSP00000278616",
+        "preferredName_A": "CREBBP", "preferredName_B": "ATM", "ncbiTaxonId": "9606",
+        "score": 0.497, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.06, "escore":
+        0, "dscore": 0, "tscore": 0.487}, {"stringId_A": "9606.ENSP00000262367", "stringId_B":
+        "9606.ENSP00000266000", "preferredName_A": "CREBBP", "preferredName_B": "DAXX",
+        "ncbiTaxonId": "9606", "score": 0.842, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.055, "escore": 0.634, "dscore": 0, "tscore": 0.579}, {"stringId_A":
+        "9606.ENSP00000262367", "stringId_B": "9606.ENSP00000269305", "preferredName_A":
+        "CREBBP", "preferredName_B": "TP53", "ncbiTaxonId": "9606", "score": 0.999,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0, "escore": 0.998, "dscore":
+        0.9, "tscore": 0.996}, {"stringId_A": "9606.ENSP00000262367", "stringId_B":
+        "9606.ENSP00000263253", "preferredName_A": "CREBBP", "preferredName_B": "EP300",
+        "ncbiTaxonId": "9606", "score": 0.999, "nscore": 0, "fscore": 0, "pscore":
+        0.062, "ascore": 0.839, "escore": 0.782, "dscore": 0.9, "tscore": 0.983},
+        {"stringId_A": "9606.ENSP00000263253", "stringId_B": "9606.ENSP00000341957",
+        "preferredName_A": "EP300", "preferredName_B": "TP53BP2", "ncbiTaxonId": "9606",
+        "score": 0.413, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.06, "escore":
+        0.292, "dscore": 0, "tscore": 0.189}, {"stringId_A": "9606.ENSP00000263253",
+        "stringId_B": "9606.ENSP00000335153", "preferredName_A": "EP300", "preferredName_B":
+        "HSP90AA1", "ncbiTaxonId": "9606", "score": 0.809, "nscore": 0, "fscore":
+        0.003, "pscore": 0, "ascore": 0.066, "escore": 0.292, "dscore": 0.5, "tscore":
+        0.49}, {"stringId_A": "9606.ENSP00000263253", "stringId_B": "9606.ENSP00000278616",
+        "preferredName_A": "EP300", "preferredName_B": "ATM", "ncbiTaxonId": "9606",
+        "score": 0.904, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.074, "escore":
+        0, "dscore": 0, "tscore": 0.9}, {"stringId_A": "9606.ENSP00000263253", "stringId_B":
+        "9606.ENSP00000269305", "preferredName_A": "EP300", "preferredName_B": "TP53",
+        "ncbiTaxonId": "9606", "score": 0.999, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.049, "escore": 0.999, "dscore": 0.9, "tscore": 0.998}, {"stringId_A":
+        "9606.ENSP00000266000", "stringId_B": "9606.ENSP00000278616", "preferredName_A":
+        "DAXX", "preferredName_B": "ATM", "ncbiTaxonId": "9606", "score": 0.813, "nscore":
+        0, "fscore": 0, "pscore": 0, "ascore": 0.103, "escore": 0.314, "dscore": 0,
+        "tscore": 0.72}, {"stringId_A": "9606.ENSP00000266000", "stringId_B": "9606.ENSP00000269305",
+        "preferredName_A": "DAXX", "preferredName_B": "TP53", "ncbiTaxonId": "9606",
+        "score": 0.999, "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.122, "escore":
+        0.895, "dscore": 0.9, "tscore": 0.952}, {"stringId_A": "9606.ENSP00000269305",
+        "stringId_B": "9606.ENSP00000340989", "preferredName_A": "TP53", "preferredName_B":
+        "SFN", "ncbiTaxonId": "9606", "score": 0.999, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0, "escore": 0.981, "dscore": 0.75, "tscore": 0.859}, {"stringId_A":
+        "9606.ENSP00000269305", "stringId_B": "9606.ENSP00000335153", "preferredName_A":
+        "TP53", "preferredName_B": "HSP90AA1", "ncbiTaxonId": "9606", "score": 0.999,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0, "escore": 0.903, "dscore":
+        0, "tscore": 0.995}, {"stringId_A": "9606.ENSP00000269305", "stringId_B":
+        "9606.ENSP00000278616", "preferredName_A": "TP53", "preferredName_B": "ATM",
+        "ncbiTaxonId": "9606", "score": 0.999, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.103, "escore": 0.928, "dscore": 0.9, "tscore": 0.975}, {"stringId_A":
+        "9606.ENSP00000269305", "stringId_B": "9606.ENSP00000341957", "preferredName_A":
+        "TP53", "preferredName_B": "TP53BP2", "ncbiTaxonId": "9606", "score": 0.999,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0, "escore": 0.988, "dscore":
+        0.5, "tscore": 0.996}, {"stringId_A": "9606.ENSP00000278616", "stringId_B":
+        "9606.ENSP00000340989", "preferredName_A": "ATM", "preferredName_B": "SFN",
+        "ncbiTaxonId": "9606", "score": 0.604, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.042, "escore": 0.313, "dscore": 0, "tscore": 0.447}, {"stringId_A":
+        "9606.ENSP00000278616", "stringId_B": "9606.ENSP00000335153", "preferredName_A":
+        "ATM", "preferredName_B": "HSP90AA1", "ncbiTaxonId": "9606", "score": 0.785,
+        "nscore": 0, "fscore": 0, "pscore": 0, "ascore": 0.042, "escore": 0, "dscore":
+        0, "tscore": 0.785}, {"stringId_A": "9606.ENSP00000335153", "stringId_B":
+        "9606.ENSP00000340989", "preferredName_A": "HSP90AA1", "preferredName_B":
+        "SFN", "ncbiTaxonId": "9606", "score": 0.45, "nscore": 0, "fscore": 0, "pscore":
+        0, "ascore": 0.126, "escore": 0.177, "dscore": 0, "tscore": 0.296}]'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-RAY:
+      - 9facd66b4b19d5eb-BOS
+      Cache-Control:
+      - max-age=86400
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/json; charset=utf-8
+      Date:
+      - Tue, 12 May 2026 22:25:08 GMT
+      Server:
+      - cloudflare
+      String-api-version:
+      - '2'
+      Transfer-Encoding:
+      - chunked
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+    status:
+      code: 200
+      message: OK
+version: 1

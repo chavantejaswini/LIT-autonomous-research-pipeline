@@ -1,0 +1,208 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://clinicaltrials.gov/api/v2/studies/NCT04566393?format=json
+  response:
+    body:
+      string: "{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT04566393\",\"orgStudyIdInfo\":{\"id\":\"ULI-EAP-100\"},\"organization\":{\"fullName\":\"xCures\",\"class\":\"INDUSTRY\"},\"briefTitle\":\"Expanded
+        Access to Ulixertinib (BVD-523) in Patients With Advanced MAPK Pathway-Altered
+        Malignancies\",\"officialTitle\":\"Expanded Access to Ulixertinib (BVD-523)
+        in Patients With Advanced MAPK Pathway-Altered Malignancies\"},\"statusModule\":{\"statusVerifiedDate\":\"2026-01\",\"overallStatus\":\"AVAILABLE\",\"expandedAccessInfo\":{\"hasExpandedAccess\":false},\"studyFirstSubmitDate\":\"2020-09-17\",\"studyFirstSubmitQcDate\":\"2020-09-21\",\"studyFirstPostDateStruct\":{\"date\":\"2020-09-28\",\"type\":\"ACTUAL\"},\"lastUpdateSubmitDate\":\"2026-01-26\",\"lastUpdatePostDateStruct\":{\"date\":\"2026-01-28\",\"type\":\"ACTUAL\"}},\"sponsorCollaboratorsModule\":{\"responsibleParty\":{\"type\":\"SPONSOR\"},\"leadSponsor\":{\"name\":\"xCures\",\"class\":\"INDUSTRY\"},\"collaborators\":[{\"name\":\"Cancer
+        Commons\",\"class\":\"OTHER\"}]},\"descriptionModule\":{\"briefSummary\":\"The
+        objective of this expanded access program is to provide ulixertinib (BVD-523)
+        for compassionate use in advanced cancer patients with MAPK pathway-altered
+        solid tumor(s), including but not limited to KRAS, NRAS, HRAS, BRAF, MEK,
+        and ERK mutations who have incomplete response to or have exhausted available
+        therapies.\\n\\nUlixertinib is available for treatment as monotherapy or in
+        combination with other clinically tolerable agent(s), conditionally approved
+        by the drug manufacturer.\"},\"conditionsModule\":{\"conditions\":[\"Pancreatic
+        Cancer\",\"Small Bowel Cancer\",\"Colorectal Cancer\",\"Melanoma\",\"Non Small
+        Cell Lung Cancer\",\"Thyroid Cancer\",\"Bladder Cancer\",\"Head and Neck Cancer\",\"Gastric
+        Cancer\",\"Esophageal Cancer\",\"Cholangiocarcinoma\",\"Ovarian Cancer\",\"Hepatocellular
+        Carcinoma\",\"Glioblastoma\",\"MAPK Gene Mutation\",\"KRAS Activating Mutation\",\"BRAF
+        Gene Mutation\",\"NRAS Gene Mutation\",\"HRAS Gene Mutation\",\"MEK Mutation\",\"ERK
+        Mutation\"]},\"designModule\":{\"studyType\":\"EXPANDED_ACCESS\",\"nPtrsToThisExpAccNctId\":1,\"expandedAccessTypes\":{\"intermediate\":true}},\"armsInterventionsModule\":{\"interventions\":[{\"type\":\"DRUG\",\"name\":\"Ulixertinib
+        (BVD-523)\",\"description\":\"Ulixertinib (BVD-523) is an oral, first-in-class
+        ERK1/2 inhibitor\"}]},\"eligibilityModule\":{\"eligibilityCriteria\":\"Inclusion
+        Criteria:\\n\\n* Main Inclusion Criterion:\\n\\n  1\\\\. Patient has a MAPK
+        pathway-altered solid tumor(s), including but not limited to KRAS, NRAS, HRAS,
+        BRAF, MEK, and ERK mutations.\\n* Other Inclusion Criteria:\\n\\n  1. In the
+        opinion of the treating physician, the patient has exhausted or has inadequate
+        response to available anti-cancer treatments.\\n  2. In the opinion of the
+        treating physician, the patient has adequate organ function to tolerate ulixertinib
+        as defined in section 6.1\\n  3. Male or female patients aged \u2265 12 years.\\n
+        \ 4. Patient must be able to swallow and retain orally administered medication.\\n\\n
+        \    Note: Ulixertinib is primarily absorbed in the duodenum and therefore
+        patients with any prior stomach or duodenal resection should be evaluated
+        with that understanding.\\n  5. For females, evidence of post-menopausal status
+        or negative urinary or serum pregnancy test for pre-menopausal patients.\\n
+        \ 6. Highly effective contraception for both male and female patients throughout
+        the treatment and for at least 4 months after last treatment administration.
+        In patients under the age of 18, who are not sexually active, abstinence is
+        an acceptable form.\\n  7. Toxicities related to any prior treatments are
+        either stable, stable on supportive therapy, resolved, or in the opinion of
+        the treating physician, clinically non-significant\\n  8. Ability to understand
+        a written informed consent document, and the willingness to sign it. Assent
+        will be obtained when appropriate based on the patient's age.\\n\\nExclusion
+        Criteria:\\n\\n1. Patient is already participating in or qualifies for and
+        is able to enroll in a clinical trial of ulixertinib (BVD-523).\\n2. Patient
+        has received systemic therapy with an investigational agent within 5 half-lives
+        or 14 days prior to starting ulixertinib treatment, whichever is shorter.\\n3.
+        Patient has received radiotherapy within 14 days prior to the first dose of
+        ulixertinib treatment other than for the allowable treatment of symptomatic
+        bone metastasis.\\n4. A history of current evidence/risk of retinal vein occlusion
+        (RVO) or central serous retinopathy (CSR)\\n5. Current evidence of uncontrolled,
+        significant intercurrent illness that would, in the treating physician's judgment,
+        contraindicate the patient's treatment with ulixertinib due to safety concerns.\\n6.
+        Patients who, in the opinion of the treating physician, have not fully recovered
+        from recent major surgery to a sufficient extent to tolerate treatment with
+        ulixertinib.\\n7. Known hypersensitivity to ulixertinib or any component in
+        its formulation.\\n8. Patients taking prohibited medications as described
+        in current Investigator's Brochure.\\n\\n   Note: Patients who require treatment
+        with Drugs that are strong inhibitors or inducers of CYP1A2, CYP2D6, and CYP3A4
+        (see Appendix 3) were excluded from the FIH study of ulixertinib and should
+        be discussed with xCures to review if any potential benefits outweigh the
+        potential risks.\\n9. Patient is actively breastfeeding.\\n10. Prior stomach
+        or duodenal resection that in the opinion of the treating physician would
+        affect the breakdown and absorption of ulixertinib.\",\"sex\":\"ALL\",\"minimumAge\":\"12
+        Years\",\"stdAges\":[\"CHILD\",\"ADULT\",\"OLDER_ADULT\"]},\"contactsLocationsModule\":{\"centralContacts\":[{\"name\":\"xCures
+        Clinical Operations\",\"role\":\"CONTACT\",\"phone\":\"(707) 641-4475\",\"email\":\"expandedaccess@xcures.com\"}],\"locations\":[{\"facility\":\"Clearview
+        Cancer Institute\",\"status\":\"AVAILABLE\",\"city\":\"Huntsville\",\"state\":\"Alabama\",\"zip\":\"35805\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Marshall Schreeder, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":34.7304,\"lon\":-86.58594}},{\"facility\":\"Infirmary
+        Cancer Care\",\"status\":\"AVAILABLE\",\"city\":\"Mobile\",\"state\":\"Alabama\",\"zip\":\"36604\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Jose Galeas, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":30.69436,\"lon\":-88.04305}},{\"facility\":\"PCR
+        Oncology\",\"status\":\"AVAILABLE\",\"city\":\"Arroyo Grande\",\"state\":\"California\",\"zip\":\"93420\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"David Palchak, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":35.11859,\"lon\":-120.59073}},{\"facility\":\"Hoag
+        Memorial Hospital Presbyterian\",\"status\":\"AVAILABLE\",\"city\":\"Newport
+        Beach\",\"state\":\"California\",\"zip\":\"92663\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Michael
+        Demeure, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":33.61891,\"lon\":-117.92895}},{\"facility\":\"xCures
+        Inc.\",\"status\":\"AVAILABLE\",\"city\":\"San Francisco\",\"state\":\"California\",\"zip\":\"94105\",\"country\":\"United
+        States\",\"geoPoint\":{\"lat\":37.77493,\"lon\":-122.41942}},{\"facility\":\"Providence
+        Saint John's Health Center\",\"status\":\"AVAILABLE\",\"city\":\"Santa Monica\",\"state\":\"California\",\"zip\":\"90404\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Naveed Wagle, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":34.01949,\"lon\":-118.49138}},{\"facility\":\"MedStar
+        Georgetown University Hospital\",\"status\":\"AVAILABLE\",\"city\":\"Washington
+        D.C.\",\"state\":\"District of Columbia\",\"zip\":\"20007\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Benjamin A Weinberg, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":38.89511,\"lon\":-77.03637}},{\"facility\":\"Orlando
+        Health\",\"status\":\"AVAILABLE\",\"city\":\"Orlando\",\"state\":\"Florida\",\"zip\":\"32806\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Jennifer E. Tseng, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":28.53834,\"lon\":-81.37924}},{\"facility\":\"Mercy
+        Medical Center\",\"status\":\"AVAILABLE\",\"city\":\"Cedar Rapids\",\"state\":\"Iowa\",\"zip\":\"52403\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Susan Slycord, DO\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":42.00833,\"lon\":-91.64407}},{\"facility\":\"Unity
+        Point Health - St. Lukes Hospital\",\"status\":\"AVAILABLE\",\"city\":\"Cedar
+        Rapids\",\"state\":\"Iowa\",\"zip\":\"52403\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Bharat
+        Jenigiri, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":42.00833,\"lon\":-91.64407}},{\"facility\":\"Our
+        Lady of the Lake Hospital\",\"status\":\"AVAILABLE\",\"city\":\"Baton Rouge\",\"state\":\"Louisiana\",\"zip\":\"70808\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Greg Bizette, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":30.44332,\"lon\":-91.18747}},{\"facility\":\"Mary
+        Bird Perkins Cancer Center\",\"status\":\"AVAILABLE\",\"city\":\"Baton Rouge\",\"state\":\"Louisiana\",\"zip\":\"70809\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Jon Olson, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":30.44332,\"lon\":-91.18747}},{\"facility\":\"Oakland
+        Macomb Cancer Specialists\",\"status\":\"AVAILABLE\",\"city\":\"Sterling Heights\",\"state\":\"Michigan\",\"zip\":\"48314\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Mohammad Mobayed, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":42.58031,\"lon\":-83.0302}},{\"facility\":\"Lake
+        Region Healthcare\",\"status\":\"AVAILABLE\",\"city\":\"Fergus Falls\",\"state\":\"Minnesota\",\"zip\":\"56537\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Anthony Rooney, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":46.28302,\"lon\":-96.07756}},{\"facility\":\"Nebraska
+        Hematology Oncology\",\"status\":\"AVAILABLE\",\"city\":\"Lincoln\",\"state\":\"Nebraska\",\"zip\":\"68506\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Madhu Midathada, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.8,\"lon\":-96.66696}},{\"facility\":\"Cancer
+        Partners of Nebraska\",\"status\":\"AVAILABLE\",\"city\":\"Lincoln\",\"state\":\"Nebraska\",\"zip\":\"68510\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Nathan B. Green, DO\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.8,\"lon\":-96.66696}},{\"facility\":\"Hunterdon
+        Hematology Oncology\",\"status\":\"AVAILABLE\",\"city\":\"Flemington\",\"state\":\"New
+        Jersey\",\"zip\":\"08822\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Waqas
+        Rehman, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.51233,\"lon\":-74.85933}},{\"facility\":\"Monmouth
+        Medical Center\",\"status\":\"AVAILABLE\",\"city\":\"Long Branch\",\"state\":\"New
+        Jersey\",\"zip\":\"07740\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Seth
+        Cohen, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.30428,\"lon\":-73.99236}},{\"facility\":\"The
+        Minniti Center for Medical Oncology and Hematology\",\"status\":\"AVAILABLE\",\"city\":\"Mickleton\",\"state\":\"New
+        Jersey\",\"zip\":\"08056\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Carl
+        J. Minniti Jr., MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":39.79011,\"lon\":-75.23768}},{\"facility\":\"Atlantic
+        Health System/Overlook Medical Center\",\"status\":\"AVAILABLE\",\"city\":\"Summit\",\"state\":\"New
+        Jersey\",\"zip\":\"07901\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Bonni
+        Guerin, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.71562,\"lon\":-74.36468}},{\"facility\":\"Hirschfeld
+        Oncology\",\"status\":\"AVAILABLE\",\"city\":\"Brooklyn\",\"state\":\"New
+        York\",\"zip\":\"11206\",\"country\":\"United States\",\"contacts\":[{\"name\":\"Azriel
+        Hirschfeld, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.6501,\"lon\":-73.94958}},{\"facility\":\"Stony
+        Brook Cancer Center\",\"status\":\"AVAILABLE\",\"city\":\"Stony Brook\",\"state\":\"New
+        York\",\"zip\":\"11794\",\"country\":\"United States\",\"contacts\":[{\"name\":\"MInsig
+        Choi, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.92565,\"lon\":-73.14094}},{\"facility\":\"The
+        Christ Hospital\",\"status\":\"AVAILABLE\",\"city\":\"Cincinnati\",\"state\":\"Ohio\",\"zip\":\"45219\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Manish Bhandari, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":39.12711,\"lon\":-84.51439}},{\"facility\":\"Lehigh
+        Valley Health Network\",\"status\":\"AVAILABLE\",\"city\":\"Allentown\",\"state\":\"Pennsylvania\",\"zip\":\"18103\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Suresh Nair, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":40.60843,\"lon\":-75.49018}},{\"facility\":\"MD
+        Anderson\",\"status\":\"AVAILABLE\",\"city\":\"Houston\",\"state\":\"Texas\",\"zip\":\"77030\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Jodi Rodon Ahnert, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":29.76328,\"lon\":-95.36327}},{\"facility\":\"UTHealth
+        Houston\",\"status\":\"AVAILABLE\",\"city\":\"Houston\",\"state\":\"Texas\",\"zip\":\"77030\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Jay-Jiguang Zhu, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":29.76328,\"lon\":-95.36327}},{\"facility\":\"UTHealth
+        - Tyler\",\"status\":\"AVAILABLE\",\"city\":\"Tyler\",\"state\":\"Texas\",\"zip\":\"75701\",\"country\":\"United
+        States\",\"contacts\":[{\"name\":\"Robert M Droder, MD\",\"role\":\"PRINCIPAL_INVESTIGATOR\"}],\"geoPoint\":{\"lat\":32.35126,\"lon\":-95.30106}}]}},\"derivedSection\":{\"miscInfoModule\":{\"versionHolder\":\"2026-05-12\"},\"conditionBrowseModule\":{\"meshes\":[{\"id\":\"D010190\",\"term\":\"Pancreatic
+        Neoplasms\"},{\"id\":\"D015179\",\"term\":\"Colorectal Neoplasms\"},{\"id\":\"D008545\",\"term\":\"Melanoma\"},{\"id\":\"D002289\",\"term\":\"Carcinoma,
+        Non-Small-Cell Lung\"},{\"id\":\"D013964\",\"term\":\"Thyroid Neoplasms\"},{\"id\":\"D001749\",\"term\":\"Urinary
+        Bladder Neoplasms\"},{\"id\":\"D006258\",\"term\":\"Head and Neck Neoplasms\"},{\"id\":\"D013274\",\"term\":\"Stomach
+        Neoplasms\"},{\"id\":\"D004938\",\"term\":\"Esophageal Neoplasms\"},{\"id\":\"D018281\",\"term\":\"Cholangiocarcinoma\"},{\"id\":\"D010051\",\"term\":\"Ovarian
+        Neoplasms\"},{\"id\":\"D006528\",\"term\":\"Carcinoma, Hepatocellular\"},{\"id\":\"D005909\",\"term\":\"Glioblastoma\"}],\"ancestors\":[{\"id\":\"D004067\",\"term\":\"Digestive
+        System Neoplasms\"},{\"id\":\"D009371\",\"term\":\"Neoplasms by Site\"},{\"id\":\"D009369\",\"term\":\"Neoplasms\"},{\"id\":\"D004701\",\"term\":\"Endocrine
+        Gland Neoplasms\"},{\"id\":\"D004066\",\"term\":\"Digestive System Diseases\"},{\"id\":\"D010182\",\"term\":\"Pancreatic
+        Diseases\"},{\"id\":\"D004700\",\"term\":\"Endocrine System Diseases\"},{\"id\":\"D007414\",\"term\":\"Intestinal
+        Neoplasms\"},{\"id\":\"D005770\",\"term\":\"Gastrointestinal Neoplasms\"},{\"id\":\"D005767\",\"term\":\"Gastrointestinal
+        Diseases\"},{\"id\":\"D003108\",\"term\":\"Colonic Diseases\"},{\"id\":\"D007410\",\"term\":\"Intestinal
+        Diseases\"},{\"id\":\"D012002\",\"term\":\"Rectal Diseases\"},{\"id\":\"D018358\",\"term\":\"Neuroendocrine
+        Tumors\"},{\"id\":\"D017599\",\"term\":\"Neuroectodermal Tumors\"},{\"id\":\"D009373\",\"term\":\"Neoplasms,
+        Germ Cell and Embryonal\"},{\"id\":\"D009370\",\"term\":\"Neoplasms by Histologic
+        Type\"},{\"id\":\"D009380\",\"term\":\"Neoplasms, Nerve Tissue\"},{\"id\":\"D018326\",\"term\":\"Nevi
+        and Melanomas\"},{\"id\":\"D012878\",\"term\":\"Skin Neoplasms\"},{\"id\":\"D012871\",\"term\":\"Skin
+        Diseases\"},{\"id\":\"D017437\",\"term\":\"Skin and Connective Tissue Diseases\"},{\"id\":\"D002283\",\"term\":\"Carcinoma,
+        Bronchogenic\"},{\"id\":\"D001984\",\"term\":\"Bronchial Neoplasms\"},{\"id\":\"D008175\",\"term\":\"Lung
+        Neoplasms\"},{\"id\":\"D012142\",\"term\":\"Respiratory Tract Neoplasms\"},{\"id\":\"D013899\",\"term\":\"Thoracic
+        Neoplasms\"},{\"id\":\"D008171\",\"term\":\"Lung Diseases\"},{\"id\":\"D012140\",\"term\":\"Respiratory
+        Tract Diseases\"},{\"id\":\"D013959\",\"term\":\"Thyroid Diseases\"},{\"id\":\"D014571\",\"term\":\"Urologic
+        Neoplasms\"},{\"id\":\"D014565\",\"term\":\"Urogenital Neoplasms\"},{\"id\":\"D052776\",\"term\":\"Female
+        Urogenital Diseases\"},{\"id\":\"D005261\",\"term\":\"Female Urogenital Diseases
+        and Pregnancy Complications\"},{\"id\":\"D000091642\",\"term\":\"Urogenital
+        Diseases\"},{\"id\":\"D001745\",\"term\":\"Urinary Bladder Diseases\"},{\"id\":\"D014570\",\"term\":\"Urologic
+        Diseases\"},{\"id\":\"D052801\",\"term\":\"Male Urogenital Diseases\"},{\"id\":\"D013272\",\"term\":\"Stomach
+        Diseases\"},{\"id\":\"D004935\",\"term\":\"Esophageal Diseases\"},{\"id\":\"D000230\",\"term\":\"Adenocarcinoma\"},{\"id\":\"D002277\",\"term\":\"Carcinoma\"},{\"id\":\"D009375\",\"term\":\"Neoplasms,
+        Glandular and Epithelial\"},{\"id\":\"D010049\",\"term\":\"Ovarian Diseases\"},{\"id\":\"D000291\",\"term\":\"Adnexal
+        Diseases\"},{\"id\":\"D005831\",\"term\":\"Genital Diseases, Female\"},{\"id\":\"D005833\",\"term\":\"Genital
+        Neoplasms, Female\"},{\"id\":\"D000091662\",\"term\":\"Genital Diseases\"},{\"id\":\"D006058\",\"term\":\"Gonadal
+        Disorders\"},{\"id\":\"D008113\",\"term\":\"Liver Neoplasms\"},{\"id\":\"D008107\",\"term\":\"Liver
+        Diseases\"},{\"id\":\"D001254\",\"term\":\"Astrocytoma\"},{\"id\":\"D005910\",\"term\":\"Glioma\"},{\"id\":\"D018302\",\"term\":\"Neoplasms,
+        Neuroepithelial\"}]},\"interventionBrowseModule\":{\"meshes\":[{\"id\":\"C000618314\",\"term\":\"ulixertinib\"}]}},\"hasResults\":false}\n"
+    headers:
+      Alt-Svc:
+      - clear
+      Date:
+      - Tue, 12 May 2026 22:25:05 GMT
+      Server:
+      - istio-envoy
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 google
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-UA-Compatible:
+      - IE=Edge
+      X-XSS-Protection:
+      - 1; mode=block
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      etag:
+      - '"1/0.34.1/mp2egx6w"'
+      set-cookie:
+      - ncbi_sid=556F747915D4581F_7091SID; Max-Age=31536000; Domain=clinicaltrials.gov;
+        Path=/; $x-enc=URI_ENCODING
+      x-envoy-upstream-service-time:
+      - '4'
+    status:
+      code: 200
+      message: OK
+version: 1

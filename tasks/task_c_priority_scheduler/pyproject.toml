@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "priority_scheduler"
+version = "0.1.0"
+description = "Compute resource priority scheduler with pre-emption and checkpoint/resume."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Tejaswini Chavan" }]
+dependencies = [
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[project.scripts]
+scheduler-stress = "priority_scheduler.scripts_entry:stress_main"
+scheduler-stress-sweep = "priority_scheduler.scripts_entry:sweep_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

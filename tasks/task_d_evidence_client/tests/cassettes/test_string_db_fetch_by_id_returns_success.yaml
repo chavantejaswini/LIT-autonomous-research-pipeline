@@ -1,0 +1,53 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.0
+    method: GET
+    uri: https://string-db.org/api/json/get_string_ids?caller_identity=lit-test%2F0.1&identifiers=TP53&species=9606
+  response:
+    body:
+      string: '[{"queryIndex": 0, "queryItem": "TP53", "stringId": "9606.ENSP00000269305",
+        "ncbiTaxonId": 9606, "taxonName": "Homo sapiens", "preferredName": "TP53",
+        "annotation": "Cellular tumor antigen p53; Acts as a tumor suppressor in many
+        tumor types; induces growth arrest or apoptosis depending on the physiological
+        circumstances and cell type. Involved in cell cycle regulation as a trans-activator
+        that acts to negatively regulate cell division by controlling a set of genes
+        required for this process. One of the activated genes is an inhibitor of cyclin-dependent
+        kinases. Apoptosis induction seems to be mediated either by stimulation of
+        BAX and FAS antigen expression, or by repression of Bcl-2 expression. Its
+        pro-apoptotic activity is activated via its intera [...] "}]'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-RAY:
+      - 9facd66f1bb33459-BOS
+      Cache-Control:
+      - max-age=86400
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/json; charset=utf-8
+      Date:
+      - Tue, 12 May 2026 22:25:09 GMT
+      Server:
+      - cloudflare
+      String-api-version:
+      - '2'
+      Transfer-Encoding:
+      - chunked
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+    status:
+      code: 200
+      message: OK
+version: 1

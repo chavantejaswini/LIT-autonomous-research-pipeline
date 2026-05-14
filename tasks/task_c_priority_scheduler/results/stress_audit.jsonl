@@ -1,0 +1,152 @@
+{"timestamp": "2026-05-14T02:51:41.357572+00:00", "tick": 0, "action": "submitted", "job_id": "1f91bff56343", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.357997+00:00", "tick": 0, "action": "submitted", "job_id": "086a781471ea", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358096+00:00", "tick": 0, "action": "submitted", "job_id": "21f787c3cbfc", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358178+00:00", "tick": 0, "action": "submitted", "job_id": "d3a2f3585913", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358248+00:00", "tick": 0, "action": "submitted", "job_id": "33bfce6e8ae0", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358315+00:00", "tick": 0, "action": "submitted", "job_id": "e0791e801780", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358381+00:00", "tick": 0, "action": "submitted", "job_id": "0559bc90efa5", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358445+00:00", "tick": 0, "action": "submitted", "job_id": "45fbbada4971", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358507+00:00", "tick": 0, "action": "submitted", "job_id": "bc0e1a47550d", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358568+00:00", "tick": 0, "action": "submitted", "job_id": "ef75c0cfad3d", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358629+00:00", "tick": 0, "action": "submitted", "job_id": "cd803bb08f87", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358690+00:00", "tick": 0, "action": "submitted", "job_id": "884c5854dbf8", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358752+00:00", "tick": 0, "action": "submitted", "job_id": "fe65c695db16", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358813+00:00", "tick": 0, "action": "submitted", "job_id": "c0c8bf1fd95b", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358874+00:00", "tick": 0, "action": "submitted", "job_id": "1796c5105bd9", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358933+00:00", "tick": 0, "action": "submitted", "job_id": "4dfbfce3088c", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.358993+00:00", "tick": 0, "action": "submitted", "job_id": "fd2ec96fc7ae", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359065+00:00", "tick": 0, "action": "submitted", "job_id": "bb8b83186407", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359127+00:00", "tick": 0, "action": "submitted", "job_id": "f49d29da9fa3", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359187+00:00", "tick": 0, "action": "submitted", "job_id": "fde5769fa973", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359246+00:00", "tick": 0, "action": "submitted", "job_id": "2d9f4d06e6c2", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359308+00:00", "tick": 0, "action": "submitted", "job_id": "ed864705b635", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359368+00:00", "tick": 0, "action": "submitted", "job_id": "e09e4035b7f3", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359428+00:00", "tick": 0, "action": "submitted", "job_id": "ab28ce0bd2f7", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359518+00:00", "tick": 0, "action": "submitted", "job_id": "21e5fb810911", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359609+00:00", "tick": 1, "action": "admitted", "job_id": "21f787c3cbfc", "priority": "critical", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359675+00:00", "tick": 1, "action": "admitted", "job_id": "bc0e1a47550d", "priority": "critical", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359737+00:00", "tick": 1, "action": "admitted", "job_id": "086a781471ea", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359798+00:00", "tick": 1, "action": "admitted", "job_id": "d3a2f3585913", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.359933+00:00", "tick": 3, "action": "completed", "job_id": "086a781471ea", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360004+00:00", "tick": 3, "action": "submitted", "job_id": "ee95f585d09b", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360069+00:00", "tick": 3, "action": "submitted", "job_id": "b24beb996184", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360142+00:00", "tick": 3, "action": "submitted", "job_id": "fb62858ab683", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360205+00:00", "tick": 3, "action": "submitted", "job_id": "d04b52a3958d", "priority": "critical", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360267+00:00", "tick": 3, "action": "submitted", "job_id": "f4486a7303aa", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360328+00:00", "tick": 3, "action": "submitted", "job_id": "88989f061710", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360389+00:00", "tick": 3, "action": "submitted", "job_id": "57ac7cffc91e", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360450+00:00", "tick": 3, "action": "submitted", "job_id": "f4443b9cada1", "priority": "high", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360511+00:00", "tick": 3, "action": "submitted", "job_id": "1788ab0a7399", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360573+00:00", "tick": 3, "action": "submitted", "job_id": "226292fadd97", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360634+00:00", "tick": 3, "action": "submitted", "job_id": "5b8db7e46fdc", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360695+00:00", "tick": 3, "action": "submitted", "job_id": "2e89f29f034f", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360756+00:00", "tick": 3, "action": "submitted", "job_id": "6d02f39069ae", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360818+00:00", "tick": 3, "action": "submitted", "job_id": "47dbf86ed4bf", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360880+00:00", "tick": 3, "action": "submitted", "job_id": "9cb127203c0e", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.360945+00:00", "tick": 3, "action": "submitted", "job_id": "0b26a9b0809b", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361007+00:00", "tick": 3, "action": "submitted", "job_id": "dfbc9cd79e61", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361100+00:00", "tick": 3, "action": "submitted", "job_id": "b1eba36f54ea", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361161+00:00", "tick": 3, "action": "submitted", "job_id": "f6a23b019795", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361223+00:00", "tick": 3, "action": "submitted", "job_id": "b50186a0d790", "priority": "standard", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361285+00:00", "tick": 3, "action": "submitted", "job_id": "ca5a1536bc63", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361346+00:00", "tick": 3, "action": "submitted", "job_id": "eaec75325fe4", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361407+00:00", "tick": 3, "action": "submitted", "job_id": "5004f48e92d7", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361471+00:00", "tick": 3, "action": "submitted", "job_id": "bcc50ec8f86f", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361534+00:00", "tick": 3, "action": "submitted", "job_id": "9745e2c0e7c9", "priority": "opportunistic", "reason": "submit() called", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361631+00:00", "tick": 4, "action": "admitted", "job_id": "ee95f585d09b", "priority": "critical", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.361902+00:00", "tick": 4, "action": "yielded", "job_id": "d3a2f3585913", "priority": "high", "reason": "yielding to critical/b24beb996184", "extra": {"credits_charged": 1}}
+{"timestamp": "2026-05-14T02:51:41.361968+00:00", "tick": 4, "action": "admitted", "job_id": "b24beb996184", "priority": "critical", "reason": "admitted after pre-empting lower-priority", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362161+00:00", "tick": 7, "action": "completed", "job_id": "bc0e1a47550d", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362254+00:00", "tick": 8, "action": "admitted", "job_id": "fb62858ab683", "priority": "critical", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362362+00:00", "tick": 8, "action": "completed", "job_id": "21f787c3cbfc", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362421+00:00", "tick": 8, "action": "completed", "job_id": "b24beb996184", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362510+00:00", "tick": 9, "action": "admitted", "job_id": "d04b52a3958d", "priority": "critical", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.362627+00:00", "tick": 9, "action": "resumed", "job_id": "d3a2f3585913", "priority": "high", "reason": "slot available", "extra": {"credits_charged": 3}}
+{"timestamp": "2026-05-14T02:51:41.362913+00:00", "tick": 14, "action": "completed", "job_id": "ee95f585d09b", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363002+00:00", "tick": 15, "action": "admitted", "job_id": "33bfce6e8ae0", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363096+00:00", "tick": 15, "action": "completed", "job_id": "d3a2f3585913", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363152+00:00", "tick": 15, "action": "completed", "job_id": "fb62858ab683", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363254+00:00", "tick": 16, "action": "admitted", "job_id": "e0791e801780", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363342+00:00", "tick": 16, "action": "admitted", "job_id": "884c5854dbf8", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363440+00:00", "tick": 16, "action": "completed", "job_id": "d04b52a3958d", "priority": "critical", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363532+00:00", "tick": 17, "action": "admitted", "job_id": "c0c8bf1fd95b", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363669+00:00", "tick": 18, "action": "completed", "job_id": "884c5854dbf8", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.363761+00:00", "tick": 19, "action": "admitted", "job_id": "2d9f4d06e6c2", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364116+00:00", "tick": 26, "action": "completed", "job_id": "33bfce6e8ae0", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364178+00:00", "tick": 26, "action": "completed", "job_id": "e0791e801780", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364269+00:00", "tick": 27, "action": "admitted", "job_id": "f4486a7303aa", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364336+00:00", "tick": 27, "action": "admitted", "job_id": "88989f061710", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364468+00:00", "tick": 28, "action": "completed", "job_id": "c0c8bf1fd95b", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364559+00:00", "tick": 29, "action": "admitted", "job_id": "57ac7cffc91e", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364690+00:00", "tick": 30, "action": "completed", "job_id": "2d9f4d06e6c2", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364781+00:00", "tick": 31, "action": "admitted", "job_id": "f4443b9cada1", "priority": "high", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.364949+00:00", "tick": 33, "action": "completed", "job_id": "88989f061710", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365010+00:00", "tick": 33, "action": "completed", "job_id": "57ac7cffc91e", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365098+00:00", "tick": 34, "action": "admitted", "job_id": "1f91bff56343", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365162+00:00", "tick": 34, "action": "admitted", "job_id": "0559bc90efa5", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365256+00:00", "tick": 34, "action": "completed", "job_id": "f4486a7303aa", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365315+00:00", "tick": 34, "action": "completed", "job_id": "f4443b9cada1", "priority": "high", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365403+00:00", "tick": 35, "action": "admitted", "job_id": "ef75c0cfad3d", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365468+00:00", "tick": 35, "action": "admitted", "job_id": "cd803bb08f87", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365561+00:00", "tick": 35, "action": "completed", "job_id": "1f91bff56343", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365651+00:00", "tick": 36, "action": "admitted", "job_id": "1796c5105bd9", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365912+00:00", "tick": 40, "action": "completed", "job_id": "0559bc90efa5", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.365997+00:00", "tick": 41, "action": "admitted", "job_id": "4dfbfce3088c", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366187+00:00", "tick": 44, "action": "completed", "job_id": "ef75c0cfad3d", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366270+00:00", "tick": 45, "action": "admitted", "job_id": "fd2ec96fc7ae", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366391+00:00", "tick": 46, "action": "completed", "job_id": "cd803bb08f87", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366475+00:00", "tick": 47, "action": "admitted", "job_id": "f49d29da9fa3", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366560+00:00", "tick": 47, "action": "completed", "job_id": "1796c5105bd9", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366642+00:00", "tick": 48, "action": "admitted", "job_id": "fde5769fa973", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366735+00:00", "tick": 48, "action": "completed", "job_id": "fd2ec96fc7ae", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366789+00:00", "tick": 48, "action": "completed", "job_id": "f49d29da9fa3", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366872+00:00", "tick": 49, "action": "admitted", "job_id": "ed864705b635", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.366937+00:00", "tick": 49, "action": "admitted", "job_id": "e09e4035b7f3", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367068+00:00", "tick": 50, "action": "completed", "job_id": "fde5769fa973", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367149+00:00", "tick": 51, "action": "admitted", "job_id": "21e5fb810911", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367234+00:00", "tick": 51, "action": "completed", "job_id": "4dfbfce3088c", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367315+00:00", "tick": 52, "action": "admitted", "job_id": "1788ab0a7399", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367433+00:00", "tick": 53, "action": "completed", "job_id": "21e5fb810911", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367515+00:00", "tick": 54, "action": "admitted", "job_id": "226292fadd97", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367600+00:00", "tick": 54, "action": "completed", "job_id": "ed864705b635", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367654+00:00", "tick": 54, "action": "completed", "job_id": "e09e4035b7f3", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367735+00:00", "tick": 55, "action": "admitted", "job_id": "5b8db7e46fdc", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.367797+00:00", "tick": 55, "action": "admitted", "job_id": "2e89f29f034f", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368011+00:00", "tick": 58, "action": "completed", "job_id": "2e89f29f034f", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368105+00:00", "tick": 59, "action": "admitted", "job_id": "6d02f39069ae", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368258+00:00", "tick": 61, "action": "completed", "job_id": "6d02f39069ae", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368337+00:00", "tick": 62, "action": "admitted", "job_id": "47dbf86ed4bf", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368452+00:00", "tick": 63, "action": "completed", "job_id": "1788ab0a7399", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368532+00:00", "tick": 64, "action": "admitted", "job_id": "9cb127203c0e", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368615+00:00", "tick": 64, "action": "completed", "job_id": "226292fadd97", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368669+00:00", "tick": 64, "action": "completed", "job_id": "5b8db7e46fdc", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368723+00:00", "tick": 64, "action": "completed", "job_id": "47dbf86ed4bf", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368802+00:00", "tick": 65, "action": "admitted", "job_id": "0b26a9b0809b", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368861+00:00", "tick": 65, "action": "admitted", "job_id": "dfbc9cd79e61", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.368919+00:00", "tick": 65, "action": "admitted", "job_id": "b1eba36f54ea", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369149+00:00", "tick": 69, "action": "completed", "job_id": "b1eba36f54ea", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369277+00:00", "tick": 70, "action": "admitted", "job_id": "f6a23b019795", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369380+00:00", "tick": 70, "action": "completed", "job_id": "0b26a9b0809b", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369474+00:00", "tick": 71, "action": "admitted", "job_id": "b50186a0d790", "priority": "standard", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369600+00:00", "tick": 72, "action": "completed", "job_id": "b50186a0d790", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369687+00:00", "tick": 73, "action": "admitted", "job_id": "45fbbada4971", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369776+00:00", "tick": 73, "action": "completed", "job_id": "9cb127203c0e", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369860+00:00", "tick": 74, "action": "admitted", "job_id": "fe65c695db16", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.369948+00:00", "tick": 74, "action": "completed", "job_id": "dfbc9cd79e61", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370029+00:00", "tick": 75, "action": "admitted", "job_id": "bb8b83186407", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370181+00:00", "tick": 76, "action": "completed", "job_id": "fe65c695db16", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370262+00:00", "tick": 77, "action": "admitted", "job_id": "ab28ce0bd2f7", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370378+00:00", "tick": 78, "action": "completed", "job_id": "f6a23b019795", "priority": "standard", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370457+00:00", "tick": 79, "action": "admitted", "job_id": "ca5a1536bc63", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370540+00:00", "tick": 79, "action": "completed", "job_id": "45fbbada4971", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370621+00:00", "tick": 80, "action": "admitted", "job_id": "eaec75325fe4", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370704+00:00", "tick": 80, "action": "completed", "job_id": "ca5a1536bc63", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370783+00:00", "tick": 81, "action": "admitted", "job_id": "5004f48e92d7", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.370957+00:00", "tick": 84, "action": "completed", "job_id": "ab28ce0bd2f7", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371037+00:00", "tick": 85, "action": "admitted", "job_id": "bcc50ec8f86f", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371118+00:00", "tick": 85, "action": "completed", "job_id": "eaec75325fe4", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371198+00:00", "tick": 86, "action": "admitted", "job_id": "9745e2c0e7c9", "priority": "opportunistic", "reason": "slot available", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371271+00:00", "tick": 86, "action": "completed", "job_id": "bb8b83186407", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371550+00:00", "tick": 92, "action": "completed", "job_id": "5004f48e92d7", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371643+00:00", "tick": 93, "action": "completed", "job_id": "9745e2c0e7c9", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}
+{"timestamp": "2026-05-14T02:51:41.371735+00:00", "tick": 94, "action": "completed", "job_id": "bcc50ec8f86f", "priority": "opportunistic", "reason": "workload reported is_complete=True", "extra": {}}

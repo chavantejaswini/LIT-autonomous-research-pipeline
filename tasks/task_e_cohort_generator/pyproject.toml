@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cohort_generator"
+version = "0.1.0"
+description = "Synthetic patient cohort generator from configurable marginal distributions and target correlations."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Tejaswini Chavan" }]
+dependencies = [
+    "pydantic>=2.6",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+notebook = ["jupyter>=1.0", "matplotlib>=3.8"]
+
+[project.scripts]
+cohort-gen = "cohort_generator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

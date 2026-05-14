@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence_client"
+version = "0.1.0"
+description = "Unified Result-typed client across PubMed, ClinicalTrials.gov v2, FDA FAERS, NHANES, and STRING-DB."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Tejaswini Chavan" }]
+dependencies = [
+    "pydantic>=2.6",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "vcrpy>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "live: integration tests that hit the real APIs (gated by EVIDENCE_LIVE=1)",
+]
